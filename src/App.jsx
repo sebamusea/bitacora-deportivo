@@ -356,9 +356,9 @@ function LandingPage({ onEnter }) {
 }
 
 export default function App() {
-  const [route, setRoute] = useState(() => localStorage.getItem("route") || "aplausos");
+  const [route, setRoute] = useState(() => sessionStorage.getItem("route") || "landing");
   useEffect(() => {
-    localStorage.setItem("route", route);
+    sessionStorage.setItem("route", route);
   }, [route]);
 
   return (
