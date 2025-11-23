@@ -182,6 +182,214 @@ La actividad combina ritmo, humor y expresión corporal.`,
   tags: ["grupal"],
   videoUrl: "",
 },
+{
+  id: "ap-globo",
+  title: "Aplauso del Globo",
+  description: `El profesor infla un globo sin hacerle nudo. Cuando lo suelta, el globo comienza a desinflarse y a moverse por el aire. Durante todo ese tiempo, los alumnos deben aplaudir rápido y de forma continua, deteniéndose únicamente cuando el globo quede completamente desinflado. La actividad trabaja la atención visual y la reacción grupal.`,
+  tags: ["grupal"],
+  videoUrl: "",
+},
+{
+  id: "ap-popeye",
+  title: "Popeye",
+  description: `Este aplauso busca fomentar la coordinación rítmica imitando la melodía característica de “Popeye”. El grupo realiza una secuencia de aplausos rápidos y coordinados, seguida del gesto de llevarse una mano a la boca simulando una pipa mientras dicen “tu-tu”. Esta secuencia se repite dos veces. Para cerrar, se ejecuta una versión más larga con aplausos continuos que representan la melodía completa, finalizando nuevamente con el gesto de pipa y el “tu-tu”.`,
+  tags: ["grupal"],
+  videoUrl: "",
+},
+{
+  id: "ap-torero",
+  title: "Torero",
+  description: `Una persona sostiene un pañuelo (o peto) y lo mueve sobre la cabeza o cerca de la cadera; mientras el pañuelo está en movimiento, el resto del grupo debe aplaudir. Cuando la persona cruza el pañuelo de arriba hacia abajo de forma diagonal, los demás deben gritar “¡OLEE!”. También puede simular un movimiento de torear por la espalda, y el grupo deberá imitar el gesto y el sonido. La actividad combina coordinación grupal, expresión corporal y reacción a señales visuales.`,
+  tags: ["grupal"],
+  videoUrl: "",
+},
+{
+  id: "ap-ola-marina",
+  title: "Aplauso Ola Marina",
+  description: `Los participantes se posicionan en círculo o en filas. Ante la señal del profesor, la persona ubicada más a la izquierda inicia la “ola”: levanta los brazos y da un aplauso fuerte. El participante siguiente repite la acción, generando un efecto de ola que recorre todo el grupo. Luego, la ola vuelve en sentido contrario, esta vez con un aplauso más suave. Para finalizar, todos levantan los brazos y aplauden fuerte al mismo tiempo, simulando una gran ola que llega a la orilla.`,
+  tags: ["grupal"],
+  videoUrl: "",
+},
+{
+  id: "ap-popcorn",
+  title: "Aplauso Popcorn",
+  description: `Actividad que fomenta la atención y la rapidez de respuesta. El profesor dice “¡Pop!” y los estudiantes deben responder con un aplauso corto. Cuando dice “¡Pop-pop!”, deben dar dos aplausos rápidos. Luego el profesor indica “¡Aceite!”, momento en el cual los alumnos se frotan las manos simulando el calentamiento. Finalmente, cuando el profesor exclama “¡Explosionó!”, los participantes realizan tres aplausos rápidos seguidos de un pequeño salto.`,
+  tags: ["grupal"],
+  videoUrl: "",
+},
+{
+  id: "ap-semaforo",
+  title: "Aplauso Semáforo",
+  description: `Actividad basada en señales visuales para desarrollar control y autorregulación. El profesor utiliza tres colores:
+🟢 Verde: aplausos fuertes y rápidos.
+🟡 Amarillo: aplausos suaves y lentos.
+🔴 Rojo: silencio absoluto con manos juntas.
+El profesor cambia los colores para aumentar la dificultad. En la ronda final, los estudiantes cierran los ojos y responden solo a las instrucciones verbales de “verde”, “amarillo” o “rojo”.`,
+  tags: ["grupal"],
+  videoUrl: "",
+},
+{
+  id: "ap-eco",
+  title: "Aplauso Eco",
+  description: `El objetivo es trabajar la atención auditiva y la capacidad de imitar ritmos. El profesor realiza una secuencia de aplausos —por ejemplo, fuerte, fuerte, suave— y el grupo debe repetirla exactamente igual, actuando como un eco. Con el avance de la actividad, las secuencias se vuelven más rápidas, largas o complejas.`,
+  tags: ["grupal"],
+  videoUrl: "",
+},
+{
+  id: "ap-castillo",
+  title: "Aplauso Castillo",
+  description: `La actividad representa los distintos pisos de un castillo mediante filas de alumnos. El primer piso (primera fila, agachados) realiza un aplauso simple. El segundo piso (segunda fila, parados) ejecuta un doble aplauso. La torre (grupos a ambos costados) realiza un aplauso con palmas arriba. El profesor va indicando qué piso debe aplaudir en cada momento. Para finalizar, todos combinan sus aplausos simultáneamente.`,
+  tags: ["grupal"],
+  videoUrl: "",
+},
+{
+  id: "ap-posta",
+  title: "Aplauso Posta",
+  description: `Los alumnos forman un círculo y comienzan una cadena de aplausos. Una persona inicia dando un aplauso; la de su derecha continúa, y así sucesivamente. Si alguien da dos aplausos seguidos, la dirección de la posta cambia y continúa en sentido contrario. Si un participante muestra la palma en vez de aplaudir, se salta al siguiente, quien debe continuar. La actividad entrena la atención, la coordinación y la adaptabilidad.`,
+  tags: ["grupal"],
+  videoUrl: "",
+},
+{
+  id: "ap-siete",
+  title: "Aplauso del 7",
+  description: `Los participantes se ubican en círculo y comienzan a contar en voz alta desde el número 1. Cada persona dice el número que le corresponde. Cuando el número es 7, un múltiplo de 7 o contiene el dígito 7, la persona debe aplaudir en lugar de decirlo. Si alguien aplaude dos veces consecutivas, la dirección del conteo cambia y continúa en sentido contrario. La actividad desarrolla atención, concentración y reacción rápida.`,
+  tags: ["grupal"],
+  videoUrl: "",
+},
+{
+  id: "ap-chocolate",
+  title: "Chocolate",
+  description: `Esta actividad consiste en acompañar una canción con distintos movimientos de manos siguiendo un patrón rítmico fijo. La letra es:
+
+“Choco choco la la,
+choco choco te te,
+choco la,
+choco te,
+choco la te.”
+
+Cada palabra indica una acción:
+• “Choco”: chocar las manos abiertas con otra persona.
+• “La”: aplaudir.
+• “Te”: chocar los puños.
+
+La dinámica se repite siguiendo el ritmo de la canción, pudiendo acelerarse progresivamente para aumentar la dificultad y el entusiasmo grupal.`,
+  tags: ["parejas"],
+  videoUrl: "",
+},
+{
+  id: "ap-addams",
+  title: "Los Locos Addams",
+  description: `Este aplauso replica el ritmo clásico de Los Locos Addams usando golpes corporales y chasquidos/aplausos en un patrón repetitivo. El grupo sigue un ritmo de 8 tiempos, combinando palmadas en los muslos y chasquidos de dedos. La secuencia es:
+
+1) Palmada + Palmada + Palmada + Palmada (dos por cada muslo)
+2) Chasquido + Chasquido
+(repetir exacto una segunda vez)
+
+En la tercera repetición se añade:
+• Palmada + Palmada + Palmada + Palmada (dos por cada muslo, nuevamente)
+• Chasquido + Chasquido
+
+El objetivo es lograr sincronización grupal a alta velocidad y precisión corporal. No requiere materiales.`,
+  tags: ["grupal"],
+  videoUrl: "",
+},
+{
+  id: "ap-pecho-clip-mano",
+  title: "Pecho Clip Mano",
+  description: `Actividad de percusión corporal enfocada en la coordinación y rapidez. Se basa en un patrón rítmico fijo de 7 movimientos que se repite continuamente. El ciclo es:
+
+1) Pecho (golpe en el pecho)
+2) Clip (chasquido)
+3) Mano (aplauso)
+4) Pecho
+5) Clip
+6) Pecho
+7) Mano
+
+Puede usarse como calentamiento o rompehielo. El objetivo es desarrollar precisión motora, velocidad de reacción y sincronización grupal. No requiere materiales.`,
+  tags: ["grupal"],
+  videoUrl: "",
+},
+{
+  id: "ap-tenis",
+  title: "Tenis",
+  description: `Actividad grupal que simula el ritmo de un partido de tenis mediante aplausos sincronizados. Dos jugadores al centro realizan golpes imaginarios de raqueta, marcando los tiempos para que el grupo aplauda al mismo instante. La dificultad aumenta cuando los “jugadores” aceleran la intensidad del rally.
+
+Fases:
+• Comienzo lento: golpes predecibles, aplausos fáciles.
+• Aumento: los golpes se vuelven más rápidos.
+• Desafío final: sincronización máxima; si alguien pierde el ritmo, la dinámica puede reiniciarse.
+
+El objetivo es entrenar atención auditiva, sincronización y reacción rápida.`,
+  tags: ["grupal"],
+  videoUrl: "",
+},
+{
+  id: "ap-caballo",
+  title: "Del Caballo",
+  description: `Actividad basada en ritmo constante y comandos. El grupo mantiene un galope continuo golpeando los muslos con ambas manos. El líder interrumpe el ritmo con instrucciones que el grupo debe ejecutar al instante:
+
+• “¡Izquierda!”: inclinarse o desplazarse a la izquierda.
+• “¡Derecha!”: inclinarse o desplazarse a la derecha.
+• “¡Salto!”: incorporarse rápido y levantar las manos.
+• “¡Vuelvo!”: regresar al ritmo base de galope.
+
+El objetivo es trabajar la atención auditiva, la coordinación y la reacción bajo presión. No requiere materiales.`,
+  tags: ["grupal"],
+  videoUrl: "",
+},
+{
+  id: "ap-el-chavo",
+  title: "El Chavo",
+  description: `Aplauso inspirado en el ritmo de la canción del Chavo del 8. Es una secuencia rápida de percusión corporal:
+
+• 4 golpes en los muslos (inclinándose levemente)
+• 4 aplausos sincronizados
+• 8 pasos o movimientos rítmicos rápidos con los pies (marcha en el lugar)
+
+La dinámica exige precisión y cambio rápido entre movimientos. El objetivo es mantener coordinación grupal en un ritmo acelerado.`,
+  tags: ["grupal"],
+  videoUrl: "",
+},
+{
+  id: "ap-camaleon",
+  title: "Camaleón",
+  description: `Actividad que entrena la atención visual y la imitación inmediata. El grupo sigue un ritmo base constante mientras copia cualquier variación de gesto que realice el líder: aplausos altos, bajos, palmadas laterales, golpes corporales, chasquidos, o cualquier gesto rítmico.
+
+El líder puede cambiar de gesto en cualquier momento, y el grupo debe imitarlo al instante, como un camaleón que cambia con su entorno. No requiere materiales.`,
+  tags: ["grupal"],
+  videoUrl: "",
+},
+{
+  id: "ap-fuerte-aplauso",
+  title: "Fuerte el Aplauso",
+  description: `La dinámica se divide en dos fases conectadas:
+
+1) Tensión vocal: el líder sostiene un grito prolongado (“Fuerte el aplaaaaaaauso…”). El grupo permanece en silencio y atento.
+2) Acción sincronizada: cuando el líder corta el grito en la última sílaba (“…so!”), todos deben dar un aplauso explosivo en ese instante exacto.
+
+El objetivo es desarrollar precisión auditiva y sincronización colectiva. No requiere materiales.`,
+  tags: ["grupal"],
+  videoUrl: "",
+},
+{
+  id: "ap-hacha",
+  title: "Aplauso del Hacha",
+  description: `Un integrante o el profesor se ubica al centro del círculo y realiza movimientos simulando golpear con un hacha. Cada vez que el hacha imaginaria “impacta” (cuando el gesto baja), el grupo debe aplaudir exactamente en ese momento. El líder puede variar la velocidad y la altura para aumentar la dificultad.
+
+El objetivo es la sincronización fina y la atención visual constante.`,
+  tags: ["grupal"],
+  videoUrl: "",
+},
+{
+  id: "ap-sonido",
+  title: "Aplauso Sonido",
+  description: `El grupo comienza en silencio realizando “jazz hands” (movimiento rápido de manos sin sonido). En un momento inesperado, el monitor grita “¡sonido!” durante el tiempo que él decida. Durante ese intervalo, todos deben aplaudir continuamente. Cuando el monitor calla, el grupo vuelve a las jazz hands.
+
+Desarrolla reacción auditiva, control y sincronización.`,
+  tags: ["grupal"],
+  videoUrl: "",
+},
   ...makePlaceholders("Aplauso", 49),
 ];
 
