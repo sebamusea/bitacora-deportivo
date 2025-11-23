@@ -106,12 +106,82 @@ const makePlaceholders = (prefix, count, tag = "individual") =>
 
 const APLAUSOS_DATA = [
   {
-    id: "ap-lluvia",
-    title: "Aplauso de la Lluvia",
-    description: APLAUSO_LLUVIA_DESC,
-    tags: ["individual"],
-    videoUrl: "", // opcional: pega aquí un enlace a YouTube o a un MP4
-  },
+  id: "ap-coordinado",
+  title: "Aplauso Coordinado",
+  description: `El objetivo de este aplauso grupal es lograr la coordinación y la participación conjunta de todos los integrantes. Para comenzar, el profesor o encargado da la señal diciendo “ya”, tras lo cual el grupo debe aplaudir al mismo tiempo. En una segunda instancia, se aumenta la dificultad realizando dos aplausos consecutivos después de la señal. Luego se incorpora una variación en la que, en lugar de aplaudir, el grupo debe gritar “Wooooh” tras la señal. Finalmente, se integran todas las etapas: cuando el profesor dé la señal, el grupo debe ejecutar un aplauso, luego dos, y terminar con el grito “Wooooh”.`,
+  tags: ["grupal"],
+  videoUrl: "",
+},
+{
+  id: "ap-hora-de-te",
+  title: "Hora de Té",
+  description: `El objetivo de este aplauso es fomentar la cooperación y la coordinación grupal mediante una secuencia rítmica guiada por el profesor. La actividad se realiza siguiendo una canción: “Hora de té, de té, de té. Hora de té, de té, de té. Hora de té, té”. Los alumnos deben acompañar el ritmo de la canción con aplausos coordinados, finalizando con un aplauso fuerte en el último “té”.`,
+  tags: ["grupal"],
+  videoUrl: "",
+},
+{
+  id: "ap-geometrico",
+  title: "Geométrico",
+  description: `El monitor enseña primero un ritmo básico de aplausos, que funciona como patrón principal. Una vez dominado, se introducen variaciones agregando pausas o espacios entre los aplausos, aumentando la complejidad. Estas versiones requieren concentración, control motor y sincronización colectiva. El aplauso busca desarrollar coordinación rítmica, atención auditiva y ejecución precisa de secuencias. No requiere materiales.`,
+  tags: ["grupal"],
+  videoUrl: "",
+},
+{
+  id: "ap-sombrero",
+  title: "Aplauso del Sombrero",
+  description: `Este aplauso trabaja la atención sostenida y la sincronización grupal mediante una señal visual. El monitor lanza un gorro al aire y, mientras este permanece en vuelo, todos los participantes deben aplaudir continuamente. Cuando el monitor toma el gorro nuevamente, todos deben detenerse de inmediato. Se pueden realizar varias rondas variando la altura o velocidad del lanzamiento para aumentar la dificultad. Solo se necesita un gorro u objeto liviano.`,
+  tags: ["grupal"],
+  videoUrl: "",
+},
+{
+  id: "ap-tren",
+  title: "Aplauso del Tren",
+  description: `El objetivo es fomentar la coordinación grupal imitando los sonidos de un tren. Mientras el encargado mantenga la mano abierta, el grupo debe reproducir “ch-ch-ch-ch”, simulando el avance del tren. Si el encargado hace la seña de bocina, todos responden con “uouuuu”. Si indica frenado, el grupo debe hacer un sonido agudo tipo “iiiii”, representando el freno. La actividad se basa en seguir señales y responder en conjunto.`,
+  tags: ["grupal"],
+  videoUrl: "",
+},
+{
+  id: "ap-estadio",
+  title: "Estadio",
+  description: `Este aplauso entrena la coordinación y la regulación de intensidades dentro del grupo. Se representan tres tipos de público: palco, tribuna y galucha. En palco, los aplausos son suaves y lentos; en tribuna, más intensos y rápidos; y en galucha, el grupo debe aplaudir fuerte y gritar con entusiasmo. El profesor controla los cambios entre los niveles, guiando el ritmo del grupo.`,
+  tags: ["grupal"],
+  videoUrl: "",
+},
+{
+  id: "ap-lluvia",
+  title: "Aplauso de la Lluvia",
+  description: `El objetivo de este aplauso individual es representar diferentes intensidades de lluvia mediante sonidos con las manos. Se comienza con un dedo golpeando suavemente la palma (garuga), luego dos dedos (lluvia suave), tres dedos (lluvia moderada), cuatro dedos (lluvia fuerte) y finalmente un aplauso completo (tormenta). Tras este punto máximo, la secuencia retrocede de la misma manera, disminuyendo gradualmente la intensidad hasta volver a la garuga, simulando el decaimiento de la lluvia.`,
+  tags: ["individual"],
+  videoUrl: "",
+},
+{
+  id: "ap-domino",
+  title: "Dominó",
+  description: `Los participantes forman un círculo y se colocan en cuclillas. La actividad comienza cuando una persona aplaude y se deja caer hacia su derecha, activando un “efecto dominó” mientras cada integrante repite el movimiento sucesivamente. El objetivo es lograr una cadena fluida y coordinada.`,
+  tags: ["grupal"],
+  videoUrl: "",
+},
+{
+  id: "ap-metralleta",
+  title: "Metralleta",
+  description: `El grupo se divide en dos equipos. El organizador marca tres tiempos:
+• Preparen: el equipo atacante hace un sonido de recarga de escopeta “ch ch”, acompañándolo con el gesto de cargar.
+• Apunten: el equipo atacante simula apuntar con una escopeta.
+• Fuego: el equipo atacante simula disparar, mientras el equipo defensor debe “caer al suelo” representando haber sido alcanzado.
+La actividad busca coordinación, expresión corporal y trabajo en equipo.`,
+  tags: ["grupal"],
+  videoUrl: "",
+},
+{
+  id: "ap-animales",
+  title: "Animales",
+  description: `Aplauso temático que imita sonidos de animales siguiendo una secuencia rítmica:
+• Perro: “paraparapám, guau guau guau, paraparapám guau guau guau, paraparapám, paraparapám, psss (levanto patita) guau”.
+• Pato: “paraparapám, kuak kuak kuak, paraparapám, kuak kuak kuak, paraparapám, paraparapám, puumm (disparo), kue kue kue (pato caído)”.
+La actividad combina ritmo, humor y expresión corporal.`,
+  tags: ["grupal"],
+  videoUrl: "",
+},
   ...makePlaceholders("Aplauso", 49),
 ];
 
