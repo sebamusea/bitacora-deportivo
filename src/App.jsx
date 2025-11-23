@@ -390,7 +390,7 @@ Desarrolla reacción auditiva, control y sincronización.`,
   tags: ["grupal"],
   videoUrl: "",
 },
-  ...makePlaceholders("Aplauso", 49),
+
 ];
 
 const DINAMICAS_DATA = [
