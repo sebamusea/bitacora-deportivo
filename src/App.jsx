@@ -1280,27 +1280,27 @@ function Nosotros() {
     {
       name: "Angel Concha",
       carrera: "Ingeniería Civil Industrial TI",
-      fotoUrl: "/nosotros/angel.jpg",
+      fotoUrl: "/nosotros/angel.png",
     },
     {
       name: "Catalina Diez",
       carrera: "Ingeniería Civil Industrial TI",
-      fotoUrl: "/nosotros/catalina.jpg",
+      fotoUrl: "/nosotros/cata.png",
     },
     {
       name: "Amparo Frugone",
-      carrera: "?",
-      fotoUrl: "/nosotros/amparo.jpg",
+      carrera: "Ingeniería Comercial",
+      fotoUrl: "/nosotros/amparo.png",
     },
     {
       name: "Antonia Marín",
       carrera: "Ingeniería Civil IDI",
-      fotoUrl: "/nosotros/antonia.jpg",
+      fotoUrl: "/nosotros/anto.png",
     },
     {
       name: "Sebastián Musé",
       carrera: "Ingeniería Civil Industrial TI",
-      fotoUrl: "/nosotros/sebastian.jpg",
+      fotoUrl: "/nosotros/seba.png",
     },
   ];
 
