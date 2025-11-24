@@ -311,7 +311,7 @@ Las acciones se realizan según la palabra que suene:
 • “La” → aplaudir.  
 • “Te” → chocar los puños.  
 
-La dinámica continúa siguiendo el ritmo de la canción. Se puede repetir varias veces, acelerando progresivamente para aumentar la dificultad y el entusiasmo del grupo.`
+La actividad continúa siguiendo el ritmo de la canción. Se puede repetir varias veces, acelerando progresivamente para aumentar la dificultad y el entusiasmo del grupo.`
 },
 {
   id: "ap-locos-addams",
@@ -447,6 +447,105 @@ El momento del cambio es completamente impredecible, por lo que exige atención 
 ];
 
 const DINAMICAS_DATA = [
+{
+  id: "aram-sam-sam",
+  titulo: "Aram Sam Sam",
+  descripcion: "Los estudiantes se ponen de pie y acompañan la canción con una serie de movimientos coordinados según la letra: gestos hacia abajo simulando lluvia en la parte 'A Ram Sam Sam'; toques suaves en la cara durante 'Guli guli'; y brazos levantados cuando aparece 'Arabi'. Una vez dominado el patrón, se incorpora una versión en parejas donde cada participante ejecuta los mismos gestos junto a su compañero, manteniendo el ritmo y favoreciendo la interacción.",
+  objetivo: "Trabajar la coordinación motriz, la expresión corporal y la habilidad de seguir secuencias rítmicas, promoviendo la atención, la cooperación y un contacto respetuoso.",
+  materiales: "No requiere materiales.",
+  variantes: "Incluye variante en parejas donde se replica el patrón completo con otra persona."
+},
+
+// 2. Cazador, León y Escopeta
+{
+  id: "cazador-leon-escopeta",
+  titulo: "Cazador, León y Escopeta",
+  descripcion: "El grupo se divide en dos equipos. Cada equipo elige en secreto una de las tres opciones (cazador, león o escopeta). A la cuenta de tres, ambos equipos se dan vuelta e interpretan la mímica elegida: cazador (brazos cruzados sobre hombros), león (brazos sobre la cabeza imitando garras) o escopeta (acción de sostener un arma). Cada opción vence a una y pierde ante otra. Si ambos equipos hacen la misma, se repite.",
+  objetivo: "Desarrollar coordinación grupal, toma de decisiones en equipo y liderazgo.",
+  materiales: "Ninguno.",
+  variantes: "Se pueden agregar nuevas mímicas o ampliar las rondas para mayor dificultad."
+},
+
+// 3. Larai Lai Lero
+{
+  id: "larai-lai-lero",
+  titulo: "Larai Lai Lero",
+  descripcion: "Los estudiantes cantan la canción 'Larai lai lero...' mientras acompañan con movimientos coordinados de los dedos: dedos hacia arriba, luego contraídos hacia el centro y finalmente extendidos hacia arriba de nuevo. La secuencia sigue estrictamente el ritmo de la canción.",
+  objetivo: "Trabajar coordinación fina, ritmo y atención auditiva.",
+  materiales: "Ninguno.",
+  variantes: "Puede acelerarse progresivamente según el dominio del grupo."
+},
+
+// 4. Hércules
+{
+  id: "hercules",
+  titulo: "Hércules",
+  descripcion: "El grupo canta una secuencia rítmica mientras realiza una serie de gestos que acompañan la letra: levantar brazos mostrando músculos ('Juan es un Hércules'), avanzar como sonámbulo ('Mamá es sonámbula'), gesto de pregunta con los brazos ('Papá no hace nada'), simular sentarse ('Se la lleva todo el día sentado'), acariciar un gato ('Jugando con el gato') y tirar una cola imaginaria ('Tirándole la cola').",
+  objetivo: "Fomentar expresión corporal, coordinación grupal y participación sincronizada.",
+  materiales: "No requiere materiales.",
+  variantes: "El líder puede cambiar personajes o crear nuevas frases y gestos."
+},
+
+// 5. Pistón
+{
+  id: "piston",
+  titulo: "Pistón",
+  descripcion: "Los participantes forman un círculo posicionándose alternadamente de pie y agachados. Cantan la canción del 'pistón'. Cada vez que aparece la palabra 'pistón', quienes están parados deben agacharse y viceversa. Luego la canción se repite aumentando progresivamente las repeticiones de la palabra 'pistón', incrementando la dificultad.",
+  objetivo: "Desarrollar coordinación, atención auditiva y reacción motora en secuencias progresivas.",
+  materiales: "Ninguno.",
+  variantes: "Incrementar velocidad o número de repeticiones de 'pistón'."
+},
+
+// 6. Yo Tengo un Gusano
+{
+  id: "yo-tengo-un-gusano",
+  titulo: "Yo tengo un gusano",
+  descripcion: "El grupo se organiza en círculo con un líder al centro. El líder recita frases acompañadas de movimientos relacionados con un gusano, que los participantes deben imitar inmediatamente: afirmar el gusano, levantarlo, tirarlo, recogerlo, comérselo, chuparlo sostenidamente, vomitarlo y abrazarlo. La dinámica termina con la frase repetida 'Relajao relajao relajao'.",
+  objetivo: "Fomentar imitación, memoria secuencial, expresión corporal y atención.",
+  materiales: "Ninguno.",
+  variantes: "El líder puede agregar nuevas acciones o modificar la secuencia."
+},
+
+// 7. Canasta de Frutas
+{
+  id: "canasta-de-frutas",
+  titulo: "Canasta de Frutas",
+  descripcion: "Los participantes se sientan formando un círculo, dejando a una persona de pie en el centro. Esa persona elige un criterio (por ejemplo, 'personas de edad impar'). Quienes cumplan con la descripción deben levantarse y cambiar de asiento mientras el del centro intenta ocupar uno. El último que quede de pie pasa al centro.",
+  objetivo: "Trabajar reacción rápida, observación y romper el hielo en el grupo.",
+  materiales: "Sillas para todos menos uno.",
+  variantes: "Se pueden usar criterios más complejos o divertidos."
+},
+
+// 8. Vamos de Paseo (Pip Pip Pip)
+{
+  id: "vamos-de-paseo",
+  titulo: "Vamos de paseo",
+  descripcion: "Los estudiantes siguen la canción 'Vamos de paseo... Pip pip pip...' replicando gestos dirigidos por un líder: mano al frente, dedo arriba, codos atrás, entre otros. Al llegar a 'chu-chu gua', los participantes bailan moviéndose hacia los lados. También se agregan gestos progresivos como lengua afuera, pata de pingüino o 'poto de vieja'.",
+  objetivo: "Fomentar coordinación motriz, ritmo, memoria secuencial y expresión corporal.",
+  materiales: "Ninguno.",
+  variantes: "Agregar nuevos gestos o acelerar el ritmo."
+},
+
+// 9. Veo Veo, ¿Qué Ves?
+{
+  id: "veo-veo",
+  titulo: "Veo veo, ¿qué ves?",
+  descripcion: "Un líder selecciona mentalmente un objeto visible en el entorno. Se inicia el diálogo rítmico: 'Veo veo' – '¿Qué ves?' – 'Una cosa' – '¿Qué cosa es?'. El líder entrega una pista y el grupo intenta adivinar. Quien acierta pasa a ser el nuevo líder.",
+  objetivo: "Desarrollar observación, memoria visual y atención auditiva.",
+  materiales: "Ninguno.",
+  variantes: "Puede hacerse con objetos imaginarios o de mayor dificultad."
+},
+
+// 10. El Robot Descompuesto
+{
+  id: "robot-descompuesto",
+  titulo: "El Robot Descompuesto",
+  descripcion: "Los participantes se ubican en círculo mientras el profesor anuncia que todos serán un 'robot descompuesto'. El líder va agregando fallas mecánicas con gestos específicos que deben acumularse progresivamente sin dejar de ejecutar las anteriores. Es una secuencia acumulativa que aumenta en dificultad y humor.",
+  objetivo: "Fomentar coordinación grupal, expresión corporal, memoria acumulativa y atención auditiva.",
+  materiales: "Ninguno.",
+  variantes: "Agregar más fallas, aumentar velocidad o cambiar el estilo del robot."
+},
+
   ...makePlaceholders("Dinámica", 50, "grupo"),
 ];
 
