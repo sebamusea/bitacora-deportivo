@@ -1402,7 +1402,7 @@ function LandingPage({ onEnter }) {
     <div
       className="min-h-screen flex flex-col items-center justify-center bg-cover bg-center bg-no-repeat"
       style={{
-        backgroundImage: "url('/landing-bg.jpg')",
+        backgroundImage: "url('/fondo.jpg')",
       }}
     >
       <h1 className="text-4xl md:text-6xl font-extrabold mb-4 text-blue-700 drop-shadow-sm">
