@@ -447,105 +447,193 @@ El momento del cambio es completamente impredecible, por lo que exige atención 
 ];
 
 const DINAMICAS_DATA = [
-{
-  id: "aram-sam-sam",
-  titulo: "Aram Sam Sam",
-  descripcion: "Los estudiantes se ponen de pie y acompañan la canción con una serie de movimientos coordinados según la letra: gestos hacia abajo simulando lluvia en la parte 'A Ram Sam Sam'; toques suaves en la cara durante 'Guli guli'; y brazos levantados cuando aparece 'Arabi'. Una vez dominado el patrón, se incorpora una versión en parejas donde cada participante ejecuta los mismos gestos junto a su compañero, manteniendo el ritmo y favoreciendo la interacción.",
-  objetivo: "Trabajar la coordinación motriz, la expresión corporal y la habilidad de seguir secuencias rítmicas, promoviendo la atención, la cooperación y un contacto respetuoso.",
-  materiales: "No requiere materiales.",
-  variantes: "Incluye variante en parejas donde se replica el patrón completo con otra persona."
-},
+  {
+    id: "aram-sam-sam",
+    titulo: "Aram Sam Sam",
+    descripcion: `En esta actividad, los estudiantes se ponen de pie y acompañan la canción con una serie de movimientos coordinados. La letra es:
 
-// 2. Cazador, León y Escopeta
-{
-  id: "cazador-leon-escopeta",
-  titulo: "Cazador, León y Escopeta",
-  descripcion: "El grupo se divide en dos equipos. Cada equipo elige en secreto una de las tres opciones (cazador, león o escopeta). A la cuenta de tres, ambos equipos se dan vuelta e interpretan la mímica elegida: cazador (brazos cruzados sobre hombros), león (brazos sobre la cabeza imitando garras) o escopeta (acción de sostener un arma). Cada opción vence a una y pierde ante otra. Si ambos equipos hacen la misma, se repite.",
-  objetivo: "Desarrollar coordinación grupal, toma de decisiones en equipo y liderazgo.",
-  materiales: "Ninguno.",
-  variantes: "Se pueden agregar nuevas mímicas o ampliar las rondas para mayor dificultad."
-},
+A Ram Sam Sam, A Ram Sam Sam
+Guli Guli Guli Guli Guli Ram Sam Sam
+A Ram Sam Sam, A Ram Sam Sam
+Guli Guli Guli Guli Guli Ram Sam Sam
 
-// 3. Larai Lai Lero
-{
-  id: "larai-lai-lero",
-  titulo: "Larai Lai Lero",
-  descripcion: "Los estudiantes cantan la canción 'Larai lai lero...' mientras acompañan con movimientos coordinados de los dedos: dedos hacia arriba, luego contraídos hacia el centro y finalmente extendidos hacia arriba de nuevo. La secuencia sigue estrictamente el ritmo de la canción.",
-  objetivo: "Trabajar coordinación fina, ritmo y atención auditiva.",
-  materiales: "Ninguno.",
-  variantes: "Puede acelerarse progresivamente según el dominio del grupo."
-},
+Arabi, arabi
+Guli Guli Guli Guli Guli Ram Sam Sam
+Arabi, arabi
+Guli Guli Guli Guli Guli Ram Sam Sam
 
-// 4. Hércules
-{
-  id: "hercules",
-  titulo: "Hércules",
-  descripcion: "El grupo canta una secuencia rítmica mientras realiza una serie de gestos que acompañan la letra: levantar brazos mostrando músculos ('Juan es un Hércules'), avanzar como sonámbulo ('Mamá es sonámbula'), gesto de pregunta con los brazos ('Papá no hace nada'), simular sentarse ('Se la lleva todo el día sentado'), acariciar un gato ('Jugando con el gato') y tirar una cola imaginaria ('Tirándole la cola').",
-  objetivo: "Fomentar expresión corporal, coordinación grupal y participación sincronizada.",
-  materiales: "No requiere materiales.",
-  variantes: "El líder puede cambiar personajes o crear nuevas frases y gestos."
-},
+Durante la primera parte, realizan gestos hacia abajo simulando lluvia; en la sección de “Guli guli”, hacen toques suaves en la cara; y cuando aparece “Arabi”, levantan los brazos. Una vez dominado el patrón, se incorpora una versión en parejas, donde cada participante ejecuta los mismos gestos con su compañero, manteniendo el ritmo y favoreciendo la interacción grupal mientras la dinámica avanza.`,
+    objetivo: `Trabajar la coordinación motriz, la expresión corporal y la habilidad de seguir secuencias rítmicas, promoviendo la atención, la cooperación y un contacto respetuoso entre los participantes.`,
+    materiales: `No requiere materiales.`,
+    variantes: `Versión en parejas donde se ejecutan los mismos gestos sincronizados.`
+  },
 
-// 5. Pistón
-{
-  id: "piston",
-  titulo: "Pistón",
-  descripcion: "Los participantes forman un círculo posicionándose alternadamente de pie y agachados. Cantan la canción del 'pistón'. Cada vez que aparece la palabra 'pistón', quienes están parados deben agacharse y viceversa. Luego la canción se repite aumentando progresivamente las repeticiones de la palabra 'pistón', incrementando la dificultad.",
-  objetivo: "Desarrollar coordinación, atención auditiva y reacción motora en secuencias progresivas.",
-  materiales: "Ninguno.",
-  variantes: "Incrementar velocidad o número de repeticiones de 'pistón'."
-},
+  {
+    id: "cazador-leon-escopeta",
+    titulo: "Cazador, León y Escopeta",
+    descripcion: `La dinámica consiste en coordinar equipos mediante mímicas. El grupo se separa en dos equipos, y cada uno elige discretamente una de las tres opciones: cazador, león o escopeta. Luego, a la cuenta de tres, ambos equipos se dan vuelta mostrando su elección mediante una mímica.
 
-// 6. Yo Tengo un Gusano
-{
-  id: "yo-tengo-un-gusano",
-  titulo: "Yo tengo un gusano",
-  descripcion: "El grupo se organiza en círculo con un líder al centro. El líder recita frases acompañadas de movimientos relacionados con un gusano, que los participantes deben imitar inmediatamente: afirmar el gusano, levantarlo, tirarlo, recogerlo, comérselo, chuparlo sostenidamente, vomitarlo y abrazarlo. La dinámica termina con la frase repetida 'Relajao relajao relajao'.",
-  objetivo: "Fomentar imitación, memoria secuencial, expresión corporal y atención.",
-  materiales: "Ninguno.",
-  variantes: "El líder puede agregar nuevas acciones o modificar la secuencia."
-},
+Mímicas:
+• Cazador: brazos cruzados con las manos en los hombros.  
+• León: ambos brazos sobre la cabeza simulando garras.  
+• Escopeta: se simula sostener una escopeta.
 
-// 7. Canasta de Frutas
-{
-  id: "canasta-de-frutas",
-  titulo: "Canasta de Frutas",
-  descripcion: "Los participantes se sientan formando un círculo, dejando a una persona de pie en el centro. Esa persona elige un criterio (por ejemplo, 'personas de edad impar'). Quienes cumplan con la descripción deben levantarse y cambiar de asiento mientras el del centro intenta ocupar uno. El último que quede de pie pasa al centro.",
-  objetivo: "Trabajar reacción rápida, observación y romper el hielo en el grupo.",
-  materiales: "Sillas para todos menos uno.",
-  variantes: "Se pueden usar criterios más complejos o divertidos."
-},
+Reglas:
+• Cazador domina a escopeta y pierde con león.  
+• Escopeta gana al león y pierde con cazador.  
+• León gana al cazador y pierde con la escopeta.
 
-// 8. Vamos de Paseo (Pip Pip Pip)
-{
-  id: "vamos-de-paseo",
-  titulo: "Vamos de paseo",
-  descripcion: "Los estudiantes siguen la canción 'Vamos de paseo... Pip pip pip...' replicando gestos dirigidos por un líder: mano al frente, dedo arriba, codos atrás, entre otros. Al llegar a 'chu-chu gua', los participantes bailan moviéndose hacia los lados. También se agregan gestos progresivos como lengua afuera, pata de pingüino o 'poto de vieja'.",
-  objetivo: "Fomentar coordinación motriz, ritmo, memoria secuencial y expresión corporal.",
-  materiales: "Ninguno.",
-  variantes: "Agregar nuevos gestos o acelerar el ritmo."
-},
+El equipo donde todos hagan la misma mímica y cuya elección domine a la del equipo contrario gana. Si ambos equipos hacen la misma mímica, hay empate y se repite.`,
+    objetivo: `Fomentar el liderazgo, la coordinación de equipos y la toma rápida de decisiones.`,
+    materiales: `No requiere materiales.`,
+    variantes: `Se pueden agregar nuevas figuras o ampliar la jerarquía entre ellas.`
+  },
 
-// 9. Veo Veo, ¿Qué Ves?
-{
-  id: "veo-veo",
-  titulo: "Veo veo, ¿qué ves?",
-  descripcion: "Un líder selecciona mentalmente un objeto visible en el entorno. Se inicia el diálogo rítmico: 'Veo veo' – '¿Qué ves?' – 'Una cosa' – '¿Qué cosa es?'. El líder entrega una pista y el grupo intenta adivinar. Quien acierta pasa a ser el nuevo líder.",
-  objetivo: "Desarrollar observación, memoria visual y atención auditiva.",
-  materiales: "Ninguno.",
-  variantes: "Puede hacerse con objetos imaginarios o de mayor dificultad."
-},
+  {
+    id: "larai-lai-lero",
+    titulo: "Larai lai lero",
+    descripcion: `Esta dinámica consiste en acompañar la canción:
 
-// 10. El Robot Descompuesto
-{
-  id: "robot-descompuesto",
-  titulo: "El Robot Descompuesto",
-  descripcion: "Los participantes se ubican en círculo mientras el profesor anuncia que todos serán un 'robot descompuesto'. El líder va agregando fallas mecánicas con gestos específicos que deben acumularse progresivamente sin dejar de ejecutar las anteriores. Es una secuencia acumulativa que aumenta en dificultad y humor.",
-  objetivo: "Fomentar coordinación grupal, expresión corporal, memoria acumulativa y atención auditiva.",
-  materiales: "Ninguno.",
-  variantes: "Agregar más fallas, aumentar velocidad o cambiar el estilo del robot."
-},
+“Larai lai lero,
+Larai lai lero,
+larai lai lero lero
+lero lero lá”.
 
+El objetivo es acompañar la canción con un movimiento coordinado de los dedos índices: hacia arriba, contraídos, horizontales y mirándose. La secuencia sigue estrictamente cada parte de la canción.
+
+Además, existe una variante más compleja donde, en lugar de los dedos, se utilizan movimientos corporales:
+• Índices hacia arriba → índice izquierdo en oreja derecha e índice derecho en la nariz.  
+• Dedos contraídos → un aplauso.  
+• Dedos horizontales → índice derecho en oreja izquierda e índice izquierdo en la nariz.`,
+    objetivo: `Trabajar la coordinación fina, la concentración y la secuencia motriz sincronizada con la canción.`,
+    materiales: `No requiere materiales.`,
+    variantes: `Versión corporal sustituyendo los gestos de dedos por movimientos más complejos.`
+  },
+
+  {
+    id: "noble-duque-juan",
+    titulo: "El noble duque Juan",
+    descripcion: `El profesor canta la canción:
+
+“El noble duque Juan,
+tenía hombres mil,
+subía la montaña,
+y bajaba otra vez.
+cuando sube sube sube,
+cuando baja baja baja,
+y en el medio del camino,
+sube usted y bajo yo.”
+
+La dinámica base consiste en que los alumnos estén sentados, poniéndose de pie cada vez que la letra dice “subir” y sentándose cuando indica “bajar”.`,
+    objetivo: `Fomentar la coordinación grupal, la psicomotricidad y la capacidad de seguir instrucciones musicales.`,
+    materiales: `No requiere materiales.`,
+    variantes: `Realizar la lógica inversa (levantarse al bajar y sentarse al subir) o intercalar acciones por alumno.`
+  },
+
+  {
+    id: "noe-arca",
+    titulo: "Un día Noé, en su arca partió",
+    descripcion: `Los estudiantes cantan la canción:
+
+“Un día Noé en su arca partió
+y muchos animales de dos en dos subió.
+Al son del cocodrilo y el orangután,
+la pícara serpiente y el águila real,
+el conejo, el topo y el elefante… loco loco eres tú.”
+
+Cada parte de la canción se acompaña con gestos que representen a cada animal. En la palabra final “tú”, se señala a otro participante, quien debe repetir toda la secuencia.`,
+    objetivo: `Estimular la expresión corporal, memoria auditiva, creatividad y el respeto por los turnos.`,
+    materiales: `No requiere materiales.`,
+    variantes: `Incorporar nuevos animales o permitir que cada alumno invente un gesto propio.`
+  },
+
+  {
+    id: "evolucion",
+    titulo: "Evolución",
+    descripcion: `Todos los participantes comienzan como “Amebas”. Para avanzar de nivel deben jugar cachipún con personas del mismo nivel.
+
+Reglas:
+• El ganador evoluciona al siguiente nivel.  
+• El perdedor vuelve al nivel inicial.  
+• Gana quien llegue a “Superestudiante de la Católica”.
+
+Niveles y gestos:
+• Ameba: movimientos ondulados con los brazos.  
+• Cangrejo: manos en forma de pinzas, caminar de lado.  
+• Conejo: manos sobre la cabeza como orejas.  
+• Gorila: golpes suaves en el pecho.  
+• Superestudiante: brazo extendido en señal de triunfo.`,
+    objetivo: `Fomentar expresión corporal, resiliencia, interacción social y motivación por avanzar.`,
+    materiales: `No requiere materiales.`,
+    variantes: `Agregar más niveles intermedios o modificar las reglas de retroceso.`
+  },
+
+  {
+    id: "hoyo-fondo-mar",
+    titulo: "Hay un hoyo en el fondo de la mar",
+    descripcion: `Dinámica basada en la canción acumulativa que parte con:
+
+“Hay un hoyo en el fondo de la mar...”.
+
+Luego se agregan elementos en orden estricto:
+palo → clavo → hilo → dedo → uña.
+
+La versión final termina acumulando todas las palabras en orden, repitiendo progresivamente toda la estructura.`,
+    objetivo: `Fomentar la memoria auditiva, el seguimiento secuencial y la coordinación grupal.`,
+    materiales: `No requiere materiales.`,
+    variantes: `Se pueden agregar objetos nuevos para aumentar la dificultad.`
+  },
+
+  {
+    id: "tilin-tilon",
+    titulo: "Tilín tilón osito regalón",
+    descripcion: `La dinámica sigue la canción:
+
+“Tilín tilón,
+osito regalón.
+Tilín tilón,
+osito regalón.
+Tilín tilón,
+te doy mi corazón.”
+
+Gestos:
+• “tilín tilón”: levantar índice derecho e izquierdo.  
+• “osito regalón”: mecer brazos como cargando un bebé.  
+• “te doy mi corazón”: formar corazón con las manos y expandirlo hacia afuera.`,
+    objetivo: `Trabajar coordinación psicomotriz, ritmo y conexión afectiva grupal.`,
+    materiales: `No requiere materiales.`,
+    variantes: `Aumentar velocidad o realizar la secuencia por parejas.`
+  },
+
+  {
+    id: "ay-llepo",
+    titulo: "Ay llepo, wi tai tai llepo",
+    descripcion: `En parejas sentadas frente a frente, deben mover una pelotita siguiendo el ritmo de:
+
+“Ay llepo,
+wi tai tai llepo,
+wi tubi tubi llepo,
+wi tubi tubi yee-ee-po”.
+
+Reglas:
+• La pelota se deja en la mesa del compañero siguiendo el ritmo.  
+• En “tubi tubi” se toca la mesa contraria y vuelve al origen.  
+• Se puede aumentar la velocidad o agregar más participantes.`,
+    objetivo: `Mejorar sentido rítmico, precisión y coordinación en parejas.`,
+    materiales: `Una pelotita pequeña.`,
+    variantes: `Incorporar más personas o mover múltiples pelotitas.`
+  },
+
+  {
+    id: "cabeza-boca-mano-codo",
+    titulo: "Cabeza, cabeza boca, mano codo",
+    descripcion: `Dinámica acumulativa donde cada palabra corresponde a una acción corporal: cabeza, boca, mano, codo, pie, rodilla, media vuelta, vuelta entera, medio salto, salto entero, medio paso, paso entero.
+
+La secuencia se repite agregando progresivamente cada movimiento hasta hacerlos todos en orden.`,
+    objetivo: `Desarrollar memoria motora, coordinación y ejecución rápida de secuencias corporales.`,
+    materiales: `No requiere materiales.`,
+    variantes: `Realizar la secuencia en orden invertido o aumentar la velocidad.`
+  },
   ...makePlaceholders("Dinámica", 50, "grupo"),
 ];
 
@@ -669,8 +757,37 @@ function ActivityGrid({ data, label }) {
               </DialogHeader>
               <div className="space-y-4">
                 <div className="prose prose-neutral max-w-none">
-                  <p className="whitespace-pre-line">{selected.description}</p>
-                </div>
+                    {/* DESCRIPCIÓN */}
+                    {selected.description && (
+                      <p className="whitespace-pre-line">
+                        {selected.description}
+                      </p>
+                    )}
+
+                    {/* OBJETIVO */}
+                    {selected.objetivo && (
+                      <div>
+                        <h4 className="font-semibold text-slate-800">Objetivo</h4>
+                        <p className="whitespace-pre-line">{selected.objetivo}</p>
+                      </div>
+                    )}
+
+                    {/* MATERIALES */}
+                    {selected.materiales && (
+                      <div>
+                        <h4 className="font-semibold text-slate-800">Materiales</h4>
+                        <p className="whitespace-pre-line">{selected.materiales}</p>
+                      </div>
+                    )}
+
+                    {/* VARIANTES */}
+                    {selected.variantes && (
+                      <div>
+                        <h4 className="font-semibold text-slate-800">Variantes</h4>
+                        <p className="whitespace-pre-line">{selected.variantes}</p>
+                      </div>
+                    )}
+                  </div>
                 {selected.videoUrl ? (
                   <div>
                     <h4 className="font-medium mb-2 flex items-center gap-2"><Play className="h-4 w-4"/>Demostración</h4>
