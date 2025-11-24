@@ -1400,34 +1400,28 @@ function Nosotros() {
 function LandingPage({ onEnter }) {
   return (
     <div
-      className="relative min-h-screen flex flex-col items-center justify-start pt-32 bg-cover bg-center bg-no-repeat"
+      className="relative w-full h-screen bg-cover bg-center flex items-center justify-center"
       style={{
-        backgroundImage: "url('/fondo.jpg')",
+        backgroundImage: "url('/fondo2.jpg')",
       }}
     >
-      <div className="absolute inset-0 bg-black bg-opacity-30"></div>
+      {/* Overlay oscuro leve para contraste */}
+      <div className="absolute inset-0 bg-black/40"></div>
 
-      <div className="relative z-10 flex flex-col items-center px-4">
-
-        <h1 className="text-4xl md:text-6xl font-extrabold mb-4 text-white drop-shadow-lg">
+      {/* CONTENIDO */}
+      <div className="relative z-10 text-center flex flex-col gap-4" style={{ marginTop: "-120px" }}>
+        <h1 className="text-6xl font-bold text-white drop-shadow-lg">
           Liderazgo, Juegos y Recreación I
         </h1>
+        <p className="text-3xl text-white drop-shadow-lg">2025-2</p>
+        <p className="text-2xl text-white drop-shadow-lg">Grupo: El mejor 😎</p>
 
-        <p className="text-xl md:text-2xl mb-2 text-white drop-shadow">
-          2025-2
-        </p>
-
-        <p className="text-lg md:text-xl mb-8 text-white drop-shadow">
-          Grupo: El mejor 😎
-        </p>
-
-        <Button
-          onClick={onEnter}
-          className="bg-blue-600 hover:bg-blue-700 text-white text-lg px-8 py-4 rounded-2xl shadow-xl transition-transform hover:scale-105"
+        <a
+          href="/bitacora"
+          className="mt-4 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white text-xl rounded-xl shadow-lg"
         >
           Entrar a la Bitácora
-        </Button>
-
+        </a>
       </div>
     </div>
   );
