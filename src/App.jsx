@@ -1345,12 +1345,18 @@ const JUEGOS_DATA = [
 },
 {
   id: "juego-25",
-  title: "Pasar la pelota con pies en hilera hacia atrás",
-  tags: ["grupal"],
-  description: `Los participantes forman una hilera sentados o acostados. El primero sostiene una pelota con los pies y debe pasarla hacia atrás al siguiente, quien la recibe también con los pies. El proceso continúa hasta que la pelota llega al último integrante.`,
-  objetivo: `Fortalecer el abdomen, coordinación entre piernas, trabajo en equipo y precisión al manipular objetos con los pies.`,
-  materiales: "Pelota.",
-  variantes: `• Pasada rápida con tiempo límite.\n• Pasada combinada: dos pelotas simultáneas.\n• Cambio de rol: después de cada pasada, el primero corre al final de la hilera.`,
+  title: "Nudo Humano",
+  tags: ["grupal", "equipo"],
+  description: `Los participantes se ubican formando un círculo y se toman de las manos con dos personas distintas que no estén inmediatamente a su lado, generando un gran nudo humano de brazos. 
+                Una vez que todos estén sujetos por ambas manos, el grupo debe coordinarse para desenredarse sin soltarse, moviéndose hacia adelante, atrás o girando según sea necesario, hasta volver a una figura ordenada. 
+                El juego también puede hacerse como competencia entre varios equipos, donde gana el que logre desenredar su nudo primero.`,
+  objetivo: `Fomentar la comunicación efectiva, el trabajo colaborativo, la estrategia grupal y la coordinación motriz. 
+El desafío consiste en desenredar el nudo humano en el menor tiempo posible sin soltarse de las manos.`,
+  materiales: "No requiere materiales.",
+  variantes: `• Competencia por tiempo: varios equipos hacen su propio nudo humano y gana el que se desenreda más rápido.
+              • Nudo silencioso: los participantes deben desenredarse sin hablar, aumentando la dificultad y fomentando la comunicación no verbal.
+              • Nudo con ojos cerrados: solo una persona del equipo puede ver; el resto sigue sus instrucciones.
+              • Mega-nudo: dos círculos se entremezclan para formar un nudo más grande y complejo.`,
   imagenes: ["/juegos/Imagen25.png"]
 },
 {
