@@ -1346,7 +1346,8 @@ function Nosotros() {
       {/* 🔹 Mantengo el subtítulo tal cual lo solicitaste */}
       <p className="text-neutral-700 mb-6">
         Esta bitácora recopila 50 aplausos, 50 dinámicas y 50 juegos del ramo. Fue diseñada para ser
-        clara, rápida y pública: cualquier persona con el enlace puede ver el contenido.
+        clara, rápida y pública: cualquier persona con el enlace puede ver el contenido. 
+        Además, al hacer click sobre cada uno de los integrantes, podrán acceder a la reflexión final individual de nosotros!
       </p>
 
       {/* Grid responsiva para 5 integrantes */}
@@ -1398,7 +1399,12 @@ function Nosotros() {
 
 function LandingPage({ onEnter }) {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-sky-200 via-sky-50 to-indigo-200 text-slate-800 px-4">
+    <div
+      className="min-h-screen flex flex-col items-center justify-center bg-cover bg-center bg-no-repeat"
+      style={{
+        backgroundImage: "url('/landing-bg.jpg')",
+      }}
+    >
       <h1 className="text-4xl md:text-6xl font-extrabold mb-4 text-blue-700 drop-shadow-sm">
         Liderazgo, Juegos y Recreación I
       </h1>
