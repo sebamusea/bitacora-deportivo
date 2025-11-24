@@ -1275,32 +1275,67 @@ function ActivityGrid({ data, label }) {
   );
 }
 
+function VideoModal({ open, onClose, person }) {
+  if (!open || !person) return null;
+
+  return (
+    <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
+      <div className="bg-white p-6 rounded-lg max-w-xl w-full relative shadow-lg">
+        
+        {/* Botón cerrar */}
+        <button
+          className="absolute top-2 right-2 text-gray-600 hover:text-black text-xl font-bold"
+          onClick={onClose}
+        >
+          ×
+        </button>
+
+        <h2 className="text-xl font-bold mb-4">{person.name}</h2>
+
+        {/* Video */}
+        <video controls className="w-full rounded-lg">
+          <source src={person.video} type="video/mp4" />
+          Tu navegador no soporta video HTML5.
+        </video>
+
+      </div>
+    </div>
+  );
+}
+
 function Nosotros() {
+  const [modalOpen, setModalOpen] = useState(false);
+  const [selectedPerson, setSelectedPerson] = useState(null);
   const integrantes = [
     {
       name: "Angel Concha",
       carrera: "Ingeniería Civil Industrial TI",
       fotoUrl: "/nosotros/angel.png",
+      video: "/videos/angel.mp4",
     },
     {
       name: "Catalina Diez",
       carrera: "Ingeniería Civil Industrial TI",
       fotoUrl: "/nosotros/cata.png",
+      video: "/videos/cata.mp4",
     },
     {
       name: "Amparo Frugone",
       carrera: "Ingeniería Comercial",
       fotoUrl: "/nosotros/amparo.png",
+      video: "/videos/amparo.mp4",
     },
     {
       name: "Antonia Marín",
       carrera: "Ingeniería Civil IDI",
       fotoUrl: "/nosotros/anto.png",
+      video: "/videos/anto.mp4",
     },
     {
       name: "Sebastián Musé",
       carrera: "Ingeniería Civil Industrial TI",
       fotoUrl: "/nosotros/seba.png",
+      video: "/videos/seba.mp4",
     },
   ];
 
@@ -1317,7 +1352,14 @@ function Nosotros() {
       {/* Grid responsiva para 5 integrantes */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
         {integrantes.map((p) => (
-          <Card key={p.name} className="hover:shadow-lg transition-shadow">
+          <Card
+            key={p.name}
+            className="hover:shadow-lg transition-shadow cursor-pointer"
+            onClick={() => {
+              setSelectedPerson(p);
+              setModalOpen(true);
+            }}
+          >
             <CardHeader className="pb-2">
               <CardTitle className="text-lg text-slate-800">{p.name}</CardTitle>
             </CardHeader>
@@ -1341,6 +1383,11 @@ function Nosotros() {
           </Card>
         ))}
       </div>
+      <VideoModal
+        open={modalOpen}
+        person={selectedPerson}
+        onClose={() => setModalOpen(false)}
+      />
     </div>
   );
 }
