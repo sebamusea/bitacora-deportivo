@@ -443,7 +443,152 @@ Cuando vuelve el silencio, deben detener el aplauso y regresar a jazz hands.
 
 El momento del cambio es completamente impredecible, por lo que exige atención constante.`
 },
-  ...makePlaceholders("Aplauso", 49),
+{
+  id: "ap-indio",
+  title: "Aplauso del Indio",
+  tags: ["grupal"],
+  videoUrl: "",
+  description: `El objetivo de este aplauso es fomentar la coordinación mediante sonidos corporales asociados a cada vocal. El grupo debe seguir la secuencia “A, E, I, O, U”, repitiendo cada vocal cuatro veces de manera sincronizada. 
+Para la “A”, todos golpean sus muslos; para la “E”, las caderas; para la “I”, el abdomen; para la “O”, el pecho; y para la “U”, se imita el característico sonido de un indio golpeando la palma sobre la boca.`
+},
+{
+  id: "ap-golfista",
+  title: "Aplauso del Golfista",
+  tags: ["grupal"],
+  videoUrl: "",
+  description: `El objetivo es trabajar precisión y sincronización. El profesor adopta la postura de un golfista y realiza un swing imaginario. En el instante exacto en que el palo golpearía la pelota, los participantes deben ejecutar un único aplauso fuerte. Luego, todos levantan una mano sobre la frente para simular que siguen la trayectoria del disparo.`
+},
+{
+  id: "ap-foto",
+  title: "Aplauso de la Foto",
+  tags: ["grupal"],
+  videoUrl: "",
+  description: `Este aplauso busca trabajar coordinación y atención. El profesor actúa como fotógrafo, formando un recuadro imaginario con las manos mientras apunta a distintos participantes. Cuando el profesor selecciona a uno y grita “¡whisky!”, el elegido posa y el resto del grupo aplaude rápidamente simulando el flash de una cámara.`
+},
+{
+  id: "ap-matematico",
+  title: "Aplauso Matemático",
+  tags: ["grupal"],
+  videoUrl: "",
+  description: `El objetivo es estimular la agilidad mental y la reacción. El profesor anuncia un número y el grupo debe responder con esa cantidad exacta de aplausos. Luego, la dificultad aumenta: en lugar de un número, el profesor puede decir una operación sencilla (por ejemplo, 2+1), que los participantes deben resolver rápido para dar el número correcto de aplausos. Si dice 0, todos levantan las manos y guardan silencio.`
+},
+{
+  id: "ap-cohete",
+  title: "Aplauso Cohete",
+  tags: ["grupal"],
+  videoUrl: "",
+  description: `El objetivo es trabajar la sincronización grupal. El profesor marca el inicio simulando encender una mecha, momento en el que todos comienzan a frotar sus manos creando un sonido de fricción. A la señal, levantan los brazos produciendo un sonido ascendente “fiuuu”, y al llegar al punto más alto realizan un único aplauso fuerte y simultáneo.`
+},
+{
+  id: "ap-director",
+  title: "Director de Aplausos",
+  tags: ["grupal"],
+  videoUrl: "",
+  description: `Actividad orientada a desarrollar observación, ritmo y atención. Todos los participantes forman un círculo, excepto uno que sale del espacio. El grupo elige en secreto a un director, quien comenzará a guiar diferentes patrones de aplausos que el resto imita. El jugador que estaba afuera vuelve y debe descubrir quién es el director basándose en los movimientos y cambios de ritmo.`
+},
+{
+  id: "ap-congelante",
+  title: "Aplauso Congelante",
+  tags: ["grupal"],
+  videoUrl: "",
+  description: `El objetivo es trabajar agilidad y audición. Los participantes se desplazan libremente por el espacio hasta que el profesor marca señales con aplausos: uno → todos se congelan; dos → todos se lanzan al suelo; tres → deben volver a correr inmediatamente.`
+},
+{
+  id: "ap-atrapa",
+  title: "Atrapa el Aplauso",
+  tags: ["grupal"],
+  videoUrl: "",
+  description: `Todos los integrantes se colocan en círculo con los ojos cerrados. Una persona inicia con un aplauso y cualquiera puede responder con otro. El objetivo es que nunca coincidan dos aplausos al mismo tiempo. Si dos personas aplauden simultáneamente, el aplauso se considera “atrapado” y ambos deben salir del círculo.`
+},
+{
+  id: "ap-secuencia-creciente",
+  title: "Secuencia Creciente",
+  tags: ["grupal"],
+  videoUrl: "",
+  description: `Un participante crea una secuencia corta de dos sonidos (como “clap clap”). El siguiente jugador debe repetirla y agregar un sonido más, y así sucesivamente. La ronda continúa hasta que alguien comete un error, momento en el cual se inicia una nueva secuencia.`
+},
+{
+  id: "ap-batalla-ritmos",
+  title: "Batalla de Ritmos",
+  tags: ["grupal"],
+  videoUrl: "",
+  description: `Los equipos deben crear una secuencia de aplausos que los identifique. Un grupo inicia ejecutando su ritmo y luego elige a otro equipo para que muestre el suyo. Después, los grupos deben imitar los ritmos de los contrincantes con la mejor precisión posible. El equipo que reproduzca de forma más coordinada y fiel los ritmos continúa avanzando en la batalla.`
+},
+{
+  id: "ap-invisible",
+  title: "Aplauso Invisible",
+  tags: ["grupal"],
+  videoUrl: "",
+  description: `El objetivo es trabajar la agilidad y la velocidad de reacción mediante señales inesperadas. El profesor dirige el aplauso, que el grupo debe replicar simultáneamente. Sin embargo, puede simular que va a aplaudir sin ejecutar el sonido final. Si algún participante responde con un aplauso cuando el profesor no lo hizo, queda fuera.`
+},
+{
+  id: "ap-detector",
+  title: "Detector de Aplausos",
+  tags: ["grupal"],
+  videoUrl: "",
+  description: `Actividad orientada a desarrollar la audición fina y la orientación espacial. Todos los participantes están con los ojos cerrados mientras el profesor se desplaza por el espacio y aplaude en diferentes direcciones. Cada persona debe señalar de dónde provino el sonido: si acierta, avanza un paso; si falla, retrocede uno.`
+},
+{
+  id: "ap-carrera",
+  title: "Carrera de Aplausos",
+  tags: ["grupal"],
+  videoUrl: "",
+  description: `Diseñado para grupos grandes. Los participantes se dividen en equipos y se posicionan en hileras. A la señal del profesor, el aplauso debe recorrer la hilera de forma secuencial, desde el primero hasta el último integrante, lo más rápido posible. Gana el equipo cuyo aplauso llegue primero al final.`
+},
+{
+  id: "ap-serpiente",
+  title: "Aplauso Serpiente",
+  tags: ["grupal"],
+  videoUrl: "",
+  description: `El objetivo es trabajar coordinación grupal, atención visual y reacción rápida. Los participantes se colocan en círculo y el guía inicia un aplauso suave inclinando el cuerpo hacia un lado, creando el movimiento inicial de la “serpiente”. La persona contigua repite el gesto de inmediato y el aplauso recorre el círculo como una ola. En la segunda ronda, el guía puede cambiar la dirección o agregar variaciones como aplauso doble, fuerte o con salto, que todos deben imitar en su turno.`
+},
+{
+  id: "ap-relampago",
+  title: "Aplauso Relámpago",
+  tags: ["grupal"],
+  videoUrl: "",
+  description: `Busca mejorar la velocidad de reacción y precisión auditiva. El grupo se mueve por el espacio en silencio. Cuando el guía chasquea los dedos, se mantiene la “tormenta suave” sin aplaudir. Al escuchar un golpe fuerte de manos (el “relámpago”), todos deben ejecutar un único aplauso inmediato. Si el guía hace dos golpes seguidos, los participantes deben responder con un aplauso fuerte y un salto pequeño. Quien reacciona tarde queda congelado una ronda.`
+},
+{
+  id: "ap-puzzle",
+  title: "Aplauso Puzzle",
+  tags: ["grupal"],
+  videoUrl: "",
+  description: `El objetivo es desarrollar memoria, secuenciación motora y colaboración. El grupo se divide en equipos pequeños y cada equipo inventa una secuencia de tres aplausos distintos (por ejemplo: aplauso arriba, aplauso al pecho, chasquido). Un representante muestra la secuencia al resto. Cuando el profesor nombra un equipo, todos deben ejecutar su secuencia. Luego, el guía mezcla el orden de los equipos rápidamente, obligando al grupo a recordar y reaccionar de forma precisa.`
+},
+{
+  id: "ap-satelite",
+  title: "Aplauso Satélite",
+  tags: ["grupal"],
+  videoUrl: "",
+  description: `El objetivo es fomentar observación y sincronización. Un participante se ubica al centro y gira lentamente señalando a distintas personas alrededor del círculo. Cada vez que apunta a alguien, esa persona debe producir un aplauso fuerte, mientras el resto mantiene un ritmo suave con las manos. El “satélite” puede acelerar repentinamente su velocidad, obligando a reaccionar más rápido. Quien falle en el ritmo intercambia lugar con el satélite.`
+},
+{
+  id: "ap-tunel",
+  title: "Aplauso Túnel",
+  tags: ["grupal"],
+  videoUrl: "",
+  description: `Actividad orientada a la coordinación continua. Los participantes forman dos filas enfrentadas creando un túnel. La primera persona de una fila aplaude una vez, la persona frente a ella responde con dos aplausos, y la siguiente con tres, aumentando progresivamente hasta llegar al final del túnel. Luego la secuencia disminuye hasta volver a un aplauso. El desafío es mantener fluidez sin romper la progresión numérica.`
+},
+{
+  id: "ap-iman",
+  title: "Aplauso Imán",
+  tags: ["grupal"],
+  videoUrl: "",
+  description: `El objetivo es trabajar reacción corporal y variación del ritmo según señales del guía. Cuando el instructor junta las palmas, se activa el “modo imán”: todos deben acercarse rápidamente aplaudiendo veloz. Cuando separa las palmas, deben alejarse, aplaudiendo lento y espaciado. El guía puede sorprender levantando las palmas muy arriba o a media altura, obligando a ajustar la intensidad del aplauso según el nivel del imán.`
+},
+{
+  id: "ap-barco-pirata",
+  title: "Aplauso Barco Pirata",
+  tags: ["grupal"],
+  videoUrl: "",
+  description: `El objetivo es trabajar coordinación motriz, escucha activa y reacción bajo comandos temáticos. Los participantes se ubican en círculo y el guía anuncia órdenes inspiradas en un barco pirata:
+• “¡Remen!” → golpes rítmicos en los muslos.  
+• “¡Cañón!” → aplauso fuerte.  
+• “¡Al abordaje!” → dos aplausos rápidos y un paso adelante.  
+• “¡Peligro!” → todos se agachan dando un aplauso suave.  
+El guía va aumentando la velocidad de los comandos para desafiar la rapidez física y mental del grupo.`
+},
 ];
 
 const DINAMICAS_DATA = [
