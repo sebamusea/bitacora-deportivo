@@ -1402,7 +1402,7 @@ function LandingPage({ onEnter }) {
     <div
       className="relative min-h-screen flex flex-col items-center justify-start pt-32 bg-cover bg-center bg-no-repeat"
       style={{
-        backgroundImage: "url('/fondo2.jpg')",
+        backgroundImage: "url('/fondo.jpg')",
       }}
     >
       <div className="absolute inset-0 bg-black bg-opacity-30"></div>
