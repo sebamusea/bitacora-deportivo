@@ -1245,12 +1245,22 @@ const JUEGOS_DATA = [
 },
 {
   id: "juego-15",
-  title: "Pasada del elefante",
-  tags: ["grupal"],
-  description: `Los participantes forman equipos en hileras. Cada hilera debe transportar un objeto (pelota, cono o colchoneta pequeña) pasando este elemento por debajo de las piernas del primero al último, sin dejarlo caer. Al recibirlo, el último jugador corre al frente de la hilera y repite el proceso. Gana el equipo que complete un número determinado de ciclos antes que los demás.`,
-  objetivo: `Estimular la coordinación, precisión y trabajo en cadena bajo presión.`,
-  materiales: "Pelota u objeto equivalente.",
-  variantes: `• Pasada aérea: el objeto se pasa por encima de la cabeza.\n• Pasada combinada: alternan entre arriba y abajo.\n• Pasada rápida: límite de tiempo de 1 minuto.`,
+  title: "Embocar la Cuerda",
+  tags: ["grupal", "equipos"],
+  description: `Este juego se desarrolla entre dos equipos que compiten por encestar una cuerda en forma de aro dentro del arco contrario.
+                Cada equipo cuenta con una cuerda y un arquero que se ubica dentro de un espacio delimitado —por ejemplo, un aro en el suelo— sosteniendo un tubo de PVC o palo para ayudar a que su equipo logre encestar.
+                El arquero puede mover el palo libremente, pero no puede salir del espacio asignado.
+                Los jugadores de campo se desplazan para lanzar la cuerda hacia el arco contrario intentando encestarla, mientras el equipo rival busca interceptar el lanzamiento bloqueándolo en el aire.
+                No está permitido quitar la cuerda de las manos de un oponente; solo se pueden bloquear lanzamientos.  
+                Si la cuerda cae al suelo sin ser interceptada, la posesión pasa automáticamente al equipo contrario.
+                Gana el equipo que logre embocar más veces al finalizar la partida.`,
+  objetivo: `Desarrollar la precisión y la coordinación en el lanzamiento, fomentar la estrategia colectiva y fortalecer la comunicación efectiva dentro del equipo.
+              Además, permite practicar habilidades de ataque y defensa en movimiento.`,
+  materiales: "Cuerda en forma de aro; tubos de PVC o palos (uno por arco); aros u objetos para delimitar zonas de arquero.",
+  variantes: `• Arcos móviles: el arquero puede desplazarse dentro de un área más amplia para cambiar el ángulo de recepción.
+              • Doble cuerda: ambos equipos pueden tener dos cuerdas en juego al mismo tiempo para aumentar la intensidad.
+              • Zona prohibida: se crea un área donde los jugadores de campo no pueden ingresar, obligando a lanzamientos más estratégicos.
+              • Lanzamiento en salto: algunas rondas exigen que el lanzamiento se realice saltando o en movimiento.`,
   imagenes: ["/juegos/Imagen15.png"]
 },
 {
@@ -1925,12 +1935,29 @@ function Nosotros() {
 
 function LandingPage({ onEnter }) {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-sky-200 via-sky-50 to-indigo-200 text-slate-800 px-4">
-      <h1 className="text-4xl md:text-6xl font-extrabold mb-4 text-blue-700 drop-shadow-sm">
+    <div className="min-h-screen flex flex-col items-center justify-start bg-gradient-to-br from-sky-200 via-sky-50 to-indigo-200 text-slate-800 px-4 py-16">
+      
+      {/* Título */}
+      <h1 className="text-4xl md:text-6xl font-extrabold mb-2 text-blue-700 drop-shadow-sm">
         Liderazgo, Juegos y Recreación I
       </h1>
-      <p className="text-xl md:text-2xl mb-2 text-slate-700">2025-2</p>
+
+      {/* Semestre */}
+      <p className="text-xl md:text-2xl mb-1 text-slate-700">2025-2</p>
+
+      {/* Subtítulo */}
       <p className="text-lg md:text-xl mb-8 text-slate-600">Grupo: El mejor 😎</p>
+
+      {/* Imagen con marco */}
+      <div className="w-full max-w-3xl border-4 border-white rounded-2xl shadow-xl bg-white overflow-hidden mb-10">
+        <img
+          src="fondo.jpg" 
+          alt="Equipo"
+          className="w-full h-auto object-cover"
+        />
+      </div>
+
+      {/* Botón */}
       <Button
         onClick={onEnter}
         className="bg-blue-600 hover:bg-blue-700 text-white text-lg px-8 py-4 rounded-2xl shadow-lg transition-transform hover:scale-105"
