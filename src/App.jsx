@@ -1944,10 +1944,13 @@ function LandingPage({ onEnter }) {
 
       {/* Semestre */}
       <p className="text-xl md:text-2xl mb-1 text-slate-700">2025-2</p>
-
-      {/* Subtítulo */}
-      <p className="text-lg md:text-xl mb-8 text-slate-600">Grupo: El mejor 😎</p>
-
+      {/* Botón */}
+      <Button
+        onClick={onEnter}
+        className="bg-blue-600 hover:bg-blue-700 text-white text-lg px-8 py-4 rounded-2xl shadow-lg transition-transform hover:scale-105"
+      >
+        Entrar a la Bitácora
+      </Button>
       {/* Imagen con marco */}
       <div className="w-full max-w-xl border-4 border-white rounded-2xl shadow-xl bg-white overflow-hidden mb-10">
         <img
@@ -1957,13 +1960,7 @@ function LandingPage({ onEnter }) {
         />
       </div>
 
-      {/* Botón */}
-      <Button
-        onClick={onEnter}
-        className="bg-blue-600 hover:bg-blue-700 text-white text-lg px-8 py-4 rounded-2xl shadow-lg transition-transform hover:scale-105"
-      >
-        Entrar a la Bitácora
-      </Button>
+      
     </div>
   );
 }
