@@ -1195,7 +1195,7 @@ const JUEGOS_DATA = [
 },
 {
   id: "juego-10",
-  title: "Cadena humana",
+  title: "Cadena humana", 
   tags: ["grupal"],
   description: `Los participantes forman una hilera. El primero corre a máxima velocidad hasta la línea media y vuelve a buscar al segundo. Tomados de la mano, repiten el recorrido y buscan al siguiente, acumulando compañeros hasta que la cadena completa llegue a la línea y regrese al punto inicial sin soltarse.`,
   objetivo: `Mejorar la resistencia, la velocidad y la coordinación grupal.`,
@@ -1203,7 +1203,406 @@ const JUEGOS_DATA = [
   variantes: "",
   imagenes: ["/juegos/Imagen10.png"]
 },
-  ...makePlaceholders("Juego", 50, "lúdico"),
+{
+  id: "juego-11",
+  title: "Carrera",
+  tags: ["grupal"],
+  descripcion: `Juego de relevo competitivo centrado en esfuerzos explosivos de corta duración, trabajando la potencia aeróbica aláctica. Los jugadores se organizan en equipos del mismo tamaño sentados en hileras. El primer integrante corre hasta un punto objetivo, se sienta allí y, solo entonces, el siguiente puede salir. El proceso continúa hasta que todo el equipo haya llegado al punto final.`,
+  objetivo: `Potenciar la máxima velocidad en trayectos cortos, fomentar la motivación grupal, el espíritu competitivo sano y la coordinación por relevos.`,
+  materiales: "No requiere materiales.",
+  variantes: `• Carrera zigzag: se agregan conos y los corredores deben rodearlos.\n• Carrera retro: los participantes deben correr de espaldas.\n• Carrera con giro: al llegar al punto objetivo deben dar una vuelta completa antes de sentarse.`,
+  imagenes: ["/juegos/Imagen11.png"]
+},
+{
+  id: "juego-12",
+  title: "Relevo de Elefante",
+  tags: ["grupal"],
+  descripcion: `Se divide al grupo en equipos que se forman en hilera. El primer jugador corre hasta un punto y regresa. Al volver, debe tomar la mano del siguiente compañero pasando el brazo entre sus piernas, de modo que ambos queden unidos agachados y deban desplazarse juntos. Cada vez se suma un integrante hasta que todo el equipo avanza unido en forma de “elefante”. Gana el equipo que complete el recorrido de manera más rápida y coordinada.`,
+  objetivo: `Desarrollar la resistencia física, fuerza de piernas, coordinación grupal, sincronización y cooperación estratégica.`,
+  materiales: "No requiere materiales.",
+  variantes: `• Elefante ciego: el primero cierra los ojos y el segundo guía.\n• Elefante inverso: la cadena avanza caminando hacia atrás.\n• Elefante zigzag: deben esquivar obstáculos sin romper la cadena.`,
+  imagenes: ["/juegos/Imagen12.png"]
+},
+{
+  id: "juego-13",
+  title: "Cuncuna de agua",
+  tags: ["grupal"],
+  descripcion: `Dos equipos de 10 jugadores se sientan en hilera. Cada grupo cuenta con un bidón de 5 litros y un bidón de 3 litros cortado y perforado. El primero llena su recipiente desde un tarro común, vuelve a su lugar y lo pasa por encima de su cabeza al siguiente compañero. El último del equipo lo vierte en el bidón grande y corre al inicio para repetir el ciclo. Se juega por 5 minutos. Gana el equipo con más agua acumulada.`,
+  objetivo: `Fomentar la coordinación motriz, el trabajo en equipo, la perseverancia y la gestión del tiempo bajo presión.`,
+  materiales: "Bidón grande, bidón pequeño perforado, tarro con agua.",
+  variantes: `• Cuncuna sin derramar: si se cae agua en el trayecto, deben repetir la pasada.\n• Cuncuna de velocidad: se reduce el tiempo a 2 minutos.\n• Cuncuna nocturna: con los ojos vendados para aumentar el desafío.`,
+  imagenes: ["/juegos/Imagen13.png"]
+},
+{
+  id: "juego-14",
+  title: "Cuerpo a tierra",
+  tags: ["grupal"],
+  descripcion: `Los participantes forman una hilera acostados con espacios entre sí. Todos parten de pie. El jugador ubicado al final grita “¡cuerpo a tierra!” y todos deben acostarse instantáneamente para permitirle avanzar saltando sobre cada compañero. Al llegar al inicio, se acuesta, y ahora el nuevo último jugador repite la instrucción. La dinámica continúa hasta recorrer el espacio designado.`,
+  objetivo: `Mejorar la agilidad, la coordinación, la comunicación y la reacción grupal.`,
+  materiales: "No requiere materiales.",
+  variantes: `• Cuerpo a tierra sorpresa: el comando lo da el profesor en momentos inesperados.\n• Cuerpo a tierra reptado: en vez de saltar, deben reptar por encima.\n• Cuerpo a tierra doble: avanzan dos jugadores por turno.`,
+  imagenes: ["/juegos/Imagen14.png"]
+},
+{
+  id: "juego-15",
+  title: "Pasada del elefante",
+  tags: ["grupal"],
+  descripcion: `Los participantes forman equipos en hileras. Cada hilera debe transportar un objeto (pelota, cono o colchoneta pequeña) pasando este elemento por debajo de las piernas del primero al último, sin dejarlo caer. Al recibirlo, el último jugador corre al frente de la hilera y repite el proceso. Gana el equipo que complete un número determinado de ciclos antes que los demás.`,
+  objetivo: `Estimular la coordinación, precisión y trabajo en cadena bajo presión.`,
+  materiales: "Pelota u objeto equivalente.",
+  variantes: `• Pasada aérea: el objeto se pasa por encima de la cabeza.\n• Pasada combinada: alternan entre arriba y abajo.\n• Pasada rápida: límite de tiempo de 1 minuto.`,
+  imagenes: ["/juegos/Imagen15.png"]
+},
+{
+  id: "juego-16",
+  title: "Llevar el diario",
+  tags: ["individual", "grupal"],
+  descripcion: `Consiste en trasladar una hoja de diario desde un punto a otro sin que caiga, obedeciendo distintas restricciones según la variante. El participante debe controlar su velocidad y la dirección del viento. Si el diario cae, debe volver al inicio. También existe una versión grupal donde todos deben sostener la hoja uniendo sus palmas.`,
+  objetivo: `Mejorar la coordinación, equilibrio, control corporal y cooperación en la versión de equipo.`,
+  materiales: "Hojas de diario.",
+  variantes: `• Mano derecha.\n• Mano izquierda.\n• Ambas manos.\n• Diario en la cara (a ciegas).\n• Variante grupal: todos sostienen el mismo diario formando una gran hilera.\n• Variante inventada: carrera en zigzag esquivando conos sin perder el diario.`,
+  imagenes: ["/juegos/Imagen16.png"]
+},
+{
+  id: "juego-17",
+  title: "Juego de Pepito",
+  tags: ["individual", "grupal"],
+  descripcion: `Pepito es una figura hecha con papel de diario doblado, con ojos y boca dibujados. No tiene extremidades, pero su cuerpo puede doblarse en cuello, cintura y rodillas. El docente manipula a Pepito realizando acciones (inclinarse, sentarse, doblarse, torcerse), y todos deben imitarlo de inmediato.`,
+  objetivo: `Fomentar la atención selectiva, la concentración, la coordinación motriz fina y la imitación precisa.`,
+  materiales: "Tira de diario doblada (Pepito).",
+  variantes: `• Pepito rápido: los movimientos se ejecutan con velocidad creciente.\n• Pepito engañoso: se agregan movimientos falsos que NO deben imitarse.\n• Pepito líder: un estudiante toma el rol del profesor por turnos.`,
+  imagenes: ["/juegos/Imagen17.png"]
+},
+{
+  id: "juego-18",
+  title: "Juego de la momia",
+  tags: ["grupal"],
+  descripcion: `Un jugador actúa como líder, de espaldas al resto. Cuando está girado, los demás avanzan intentando alcanzarlo. Cuando se voltea repentinamente, todos deben quedar inmóviles y cubrirse con una hoja de diario simulando ser “momias”. Si alguien se mueve o no está cubierto, vuelve al inicio.`,
+  objetivo: `Desarrollar rapidez de reacción, autocontrol, estrategia y anticipación sin ser detectado.`,
+  materiales: "Hojas de diario.",
+  variantes: `• Momia doble: deben cubrirse con dos hojas.\n• Momia congelada: si alguien se mueve, todo el grupo retrocede.\n• Momia sigilosa: deben avanzar sin hacer ruido.`,
+  imagenes: ["/juegos/Imagen18.png"]
+},
+{
+  id: "juego-19",
+  title: "Juego del globo",
+  tags: ["individual"],
+  descripcion: `Todos los jugadores parten desde la línea inicial y deben desplazarse hacia la mitad del espacio imitando diferentes situaciones ficticias relacionadas a un globo. Cada variante modifica por completo la forma de moverse.`,
+  objetivo: `Estimular la creatividad, expresión corporal, coordinación motriz y uso del cuerpo en dinámicas imaginarias.`,
+  materiales: "No requiere materiales.",
+  variantes: `• El globo te lleva libre.\n• El globo te lleva con resistencia.\n• El globo pesa “1000 kg”.\n• Globo bajo el brazo estirado.\n• Globo entre los brazos estirados.\n• Globo entre las rodillas.\n• Variante inventada: globo invisible (deben actuar sin globo físico).`,
+  imagenes: ["/juegos/Imagen19.png"]
+},
+{
+  id: "juego-20",
+  title: "Pasarse el globo",
+  tags: ["grupal"],
+  descripcion: `Los equipos se forman en hilera. La persona delantera sostiene un globo y debe pasarlo hacia atrás por encima de la cabeza, hasta llegar al último jugador. Este corre al frente con el globo y repite el proceso hasta llegar a la meta. Existen variantes donde el globo se pasa por debajo de las piernas, hacia un costado o combinando todas las técnicas.`,
+  objetivo: `Promover la coordinación en cadena, el trabajo en equipo, la rapidez de reacción y la adaptación a diferentes formas de pasar el globo.`,
+  materiales: "Un globo inflado por equipo.",
+  variantes: `• Pasarlo por debajo de las piernas.\n• Izquierda/derecha.\n• Combinado arriba-abajo-lados.\n• Variante inventada: globo con obstáculos (deben esquivar conos).`,
+  imagenes: ["/juegos/Imagen20.png"]
+},
+{
+  id: "juego-21",
+  title: "Pegarse con el globo",
+  tags: ["grupal"],
+  descripcion: `Cada participante sostiene un globo propio y debe usarlo para golpear amistosamente a otros jugadores, mientras evita ser golpeado. Se genera una “guerra de globos” dinámica, rápida y caótica.`,
+  objetivo: `Trabajar la agilidad, velocidad de reacción, desplazamientos rápidos y toma de decisiones bajo presión.`,
+  materiales: "Un globo por participante.",
+  variantes: `• Globo congelado: si el globo toca el piso, el jugador queda congelado y solo revive si alguien le pega con su globo.\n• Globo color objetivo: solo puedes golpear a personas cuyo globo sea del color indicado por el profesor.\n• Globo zona segura: se marcan áreas donde está prohibido golpear; obliga a pensar estratégicamente.`,
+  imagenes: ["/juegos/Imagen21.png"]
+},
+{
+  id: "juego-22",
+  title: "Barco",
+  tags: ["grupal"],
+  descripcion: `La cancha se divide en cuatro zonas: proa (adelante), popa (atrás), estribor (derecha) y babor (izquierda). Todos parten al centro. El profesor grita una dirección y los estudiantes corren al sector correspondiente para luego volver al centro. Además, si se anuncia “bote de a… (número)”, los jugadores deben sentarse formando hileras del tamaño solicitado.`,
+  objetivo: `Estimular la reacción rápida, orientación espacial, escucha activa y atención sostenida.`,
+  materiales: "No requiere materiales.",
+  variantes: `• Barco tormentoso: se agregan direcciones falsas que no deben obedecer.\n• Barco silencioso: deben moverse sin hacer ruido.\n• Barco invertido: derecha e izquierda se intercambian a propósito.`,
+  imagenes: ["/juegos/Imagen22.png"]
+},
+{
+  id: "juego-23",
+  title: "Escribirse animales en la espalda",
+  tags: ["grupal"],
+  descripcion: `A cada participante se le adhiere en la espalda una hoja con un animal o profesión, sin que este la vea. Deben caminar por el espacio haciendo solo preguntas de “sí” o “no” a otros compañeros hasta deducir qué palabra tienen en su espalda.`,
+  objetivo: `Fomentar la comunicación efectiva, pensamiento lógico, razonamiento deductivo y la interacción social.`,
+  materiales: "Hojas con nombres pegadas en la espalda.",
+  variantes: `• Temática: todos los personajes pertenecen a una misma categoría (animales del mar, profesiones, películas, etc.).\n• Pregunta limitada: máximo 10 preguntas por persona.\n• Silencioso: solo se puede responder con gestos de pulgar arriba/abajo.`,
+  imagenes: ["/juegos/Imagen23.png"]
+},
+{
+  id: "juego-24",
+  title: "Pase handball",
+  tags: ["parejas", "grupal"],
+  descripcion: `En parejas separadas por aproximadamente 2 metros, los estudiantes se desplazan lateralmente mientras se pasan una pelota sin dejarla caer, avanzando ida y vuelta hasta mitad de cancha. Luego se suma una tercera persona para formar la “trenza de pases”, donde el jugador central pasa la pelota, se cambia de posición y la secuencia continúa alternando ambos lados.`,
+  objetivo: `Trabajar agilidad, coordinación óculo-manual, desplazamiento lateral y comunicación efectiva.`,
+  materiales: "Una pelota por pareja/trío.",
+  variantes: `• Pases altos desde la cabeza.\n• Pases desde el pecho.\n• Trenza rápida: el cambio de puesto debe hacerse con máxima velocidad.\n• Trenza diagonal: avanzan en zigzag.`,
+  imagenes: ["/juegos/Imagen24.png"]
+},
+{
+  id: "juego-25",
+  title: "Pasar la pelota con pies en hilera hacia atrás",
+  tags: ["grupal"],
+  descripcion: `Los participantes forman una hilera sentados o acostados. El primero sostiene una pelota con los pies y debe pasarla hacia atrás al siguiente, quien la recibe también con los pies. El proceso continúa hasta que la pelota llega al último integrante.`,
+  objetivo: `Fortalecer el abdomen, coordinación entre piernas, trabajo en equipo y precisión al manipular objetos con los pies.`,
+  materiales: "Pelota.",
+  variantes: `• Pasada rápida con tiempo límite.\n• Pasada combinada: dos pelotas simultáneas.\n• Cambio de rol: después de cada pasada, el primero corre al final de la hilera.`,
+  imagenes: ["/juegos/Imagen25.png"]
+},
+{
+  id: "juego-26",
+  title: "Países",
+  tags: ["grupal"],
+  descripcion: `Cada jugador escoge el nombre de un país. Un participante al centro lanza la pelota hacia arriba y grita “¡(nombre del país)!”. El jugador llamado corre a atraparla mientras el resto huye. Cuando atrapa la pelota, grita “¡alto!” y todos se detienen. Puede dar tres pasos para intentar golpear a alguien con la pelota. Si acierta, ese jugador inicia la siguiente ronda; si falla, inicia él mismo.`,
+  objetivo: `Desarrollar velocidad de reacción, puntería, atención auditiva y agilidad.`,
+  materiales: "Pelota.",
+  variantes: `• Países silenciosos: el lanzador solo hace mímica del país.\n• Pasos pequeños: máximo 2 pasos antes de lanzar.\n• País ninja: no se puede mirar hacia atrás mientras se huye.`,
+  imagenes: ["/juegos/Imagen26.png"]
+},
+{
+  id: "juego-27",
+  title: "Pasar la pelota acostados con los pies",
+  tags: ["grupal"],
+  descripcion: `Los jugadores se ubican acostados en una hilera. El primero sostiene la pelota con los pies, la eleva y el siguiente debe atraparla con los suyos. Ese jugador repite el procedimiento hacia atrás mientras el primero corre a acostarse al final de la hilera. Continúa hasta llegar al otro extremo del espacio.`,
+  objetivo: `Mejorar coordinación de piernas, fuerza de core, sincronización y trabajo cooperativo.`,
+  materiales: "Pelota.",
+  variantes: `• Pelota gigante: usar balón más grande para aumentar dificultad.\n• Pasada turbo: deben completar el circuito contra reloj.\n• Dos hileras compitiendo para ver quién llega primero.`,
+  imagenes: ["/juegos/Imagen27.png"]
+},
+{
+  id: "juego-28",
+  title: "Trenza con pelota",
+  tags: ["grupal"],
+  descripcion: `Tres jugadores avanzan hacia adelante formando una línea. El jugador del centro inicia con la pelota y la pasa a un costado; inmediatamente ambos intercambian posición, quedando ahora ese jugador al centro. Luego pasa la pelota al lado opuesto y nuevamente se intercambia el centro, generando una “trenza” continua.`,
+  objetivo: `Desarrollar coordinación, sincronización en movimiento, pases precisos y trabajo colectivo.`,
+  materiales: "Pelota.",
+  variantes: `• Trenza rápida: la pelota debe mantenerse en constante movimiento.\n• Trenza en zigzag.\n• Trenza silenciosa: sin hablar entre ellos.`,
+  imagenes: ["/juegos/Imagen28.png"]
+},
+{
+  id: "juego-29",
+  title: "Juegos chilenos",
+  tags: ["grupal", "individual"],
+  descripcion: `Incluye dos juegos tradicionales:\n\n• **Carrera de sacos**: cada integrante del equipo se mete en un saco y avanza saltando ida y vuelta, pasando el saco al siguiente participante.\n• **Emboque**: juego individual donde debe encajarse el palito dentro del orificio del maso.\nAmbos fomentan la cultura lúdica chilena y la coordinación.`,
+  objetivo: `Carrera de sacos: trabajar velocidad de reacción, resistencia física y rapidez.\nEmboque: desarrollar motricidad manual y precisión.`,
+  materiales: "Sacos y emboques.",
+  variantes: `• Carrera zigzag.\n• Competencia de emboque por tiempo.\n• Emboque con mano no dominante.`,
+  imagenes: ["/juegos/Imagen29_1.png", "/juegos/Imagen29_2.png"]
+},
+{
+  id: "juego-30",
+  title: "Relevos con salto de cuerda",
+  tags: ["grupal"],
+  descripcion: `Los equipos se ubican en hilera. El primer participante corre hasta la cuerda, realiza 10 saltos y vuelve a chocar la mano del siguiente para repetir el proceso. Se pueden incluir variantes como saltos hacia atrás, saltos cruzados, galopa, etc.`,
+  objetivo: `Desarrollar resistencia física, coordinación, precisión en el salto, agilidad y trabajo en equipo.`,
+  materiales: "Una cuerda de saltar por equipo.",
+  variantes: `• Saltos hacia atrás.\n• Saltos cruzados.\n• Salto galopa.\n• Salto lateral.\n• “Cuerda fantasma”: deben hacer los saltos sin cuerda como desafío técnico.`,
+  imagenes: ["/juegos/Imagen30.png"]
+},
+{
+  id: "juego-31",
+  title: "Pinta con cuerda",
+  tags: ["grupal"],
+  descripcion: `Variante del clásico juego de pinta. Se designa a 1 o más participantes como los que pillan, entregándoles una cuerda para saltar. Ellos deben perseguir a los demás saltando a pies juntos y, para atraparlos, deben envolverlos con la cuerda. Los demás solo pueden escapar saltando.`,
+  objetivo: `Fomentar la coordinación, el trabajo aeróbico y la resistencia física bajo movimiento continuo.`,
+  materiales: "Una cuerda de saltar por cada jugador encargado de pillar.",
+  variantes: `• Pinta doble cuerda: deben atrapar envolviendo con la cuerda por delante y por detrás.\n• Pinta zigzag: quienes escapan deben moverse solo en zigzag.\n• Pinta lenta: los atrapadores deben saltar en cámara lenta, obligando a estrategias distintas.`,
+  imagenes: ["/juegos/Imagen31.png"]
+},
+{
+  id: "juego-32",
+  title: "Saltar la cuerda en pareja",
+  tags: ["parejas"],
+  descripcion: `Dos participantes trabajan con una cuerda. Uno sostiene ambos extremos con las manos, y ambos deben saltar sincronizadamente: quien sujeta la cuerda salta de frente, mientras que el otro salta de espaldas a ella. Exige ritmo, concentración y trabajo conjunto.`,
+  objetivo: `Desarrollar coordinación motriz fina y gruesa, ritmo conjunto y comunicación entre compañeros.`,
+  materiales: "Una cuerda por pareja.",
+  variantes: `• Salto cruzado: cada cierto tiempo deben cruzar manos al saltar.\n• Cambio de roles cada 10 saltos.\n• Salto silencioso: prohibido hablar mientras coordinan.`,
+  imagenes: ["/juegos/Imagen32.png"]
+},
+{
+  id: "juego-33",
+  title: "Saltar la cuerda todos juntos",
+  tags: ["grupal"],
+  descripcion: `Dos personas sostienen una cuerda larga que gira de forma constante mientras 1 o más jugadores entran al centro para saltar. La actividad requiere sincronización rítmica para entrar, saltar y salir sin que la cuerda toque sus pies. Se pueden aumentar dificultades variando pasos, velocidades y entradas en movimiento.`,
+  objetivo: `Desarrollar coordinación rítmica, agilidad, trabajo en equipo y control corporal en dinámicas grupales.`,
+  materiales: "Cuerda larga.",
+  variantes: `• Entradas múltiples sin detener la cuerda.\n• Salto con pasos laterales.\n• Velocidad progresiva.\n• “Entrar desde atrás”: deben ingresar por la zona ciega del giro.`,
+  imagenes: ["/juegos/Imagen33.png"]
+},
+{
+  id: "juego-34",
+  title: "Transporte en colchoneta",
+  tags: ["grupal"],
+  descripcion: `Un jugador se acuesta sobre una colchoneta con los brazos estirados hacia adelante. El resto del equipo debe transportarlo desde un extremo de la cancha al otro, coordinando fuerza y agarres seguros. Al llegar, cambian al participante transportado y repiten hasta que todos hayan participado. Gana el equipo que complete el circuito primero.`,
+  objetivo: `Trabajar fuerza, coordinación grupal, responsabilidad corporal y confianza entre pares.`,
+  materiales: "Una colchoneta.",
+  variantes: `• Versión Aladdin: el transportado va sentado como en una “alfombra voladora”.\n• Transporte zigzag.\n• Transportar cambiando el agarre mid-recorrido.`,
+  imagenes: ["/juegos/Imagen34.png"]
+},
+{
+  id: "juego-35",
+  title: "Fórmalo y no pagarás",
+  tags: ["grupal"],
+  descripcion: `Cada equipo se coloca sobre una lenteja inicial y otra final. El moderador indica una figura que deben formar entre todos utilizando su cuerpo (puede ser de pie o en el suelo). Cada grupo corre a su lenteja final y debe formar la figura lo más rápido posible. Se repite varias veces cambiando la figura geométrica, forma humana, letra o número.`,
+  objetivo: `Fomentar creatividad corporal, trabajo en equipo, pensamiento rápido y coordinación grupal.`,
+  materiales: "Dos lentejas o conos por equipo.",
+  variantes: `• Figuras en movimiento (dinámicas).\n• Figuras temáticas: animales, letras, objetos.\n• Figuras sin hablar: comunicación solo gestual.`,
+  imagenes: ["/juegos/Imagen35.png"]
+},
+{
+  id: "juego-36",
+  title: "Transporte en colchoneta 2",
+  tags: ["grupal"],
+  descripcion: `Todos los participantes menos uno se acuestan en el pasto formando una superficie móvil. Sobre ellos, sobre una colchoneta, se coloca un compañero que debe ser transportado girando todos simultáneamente sobre su propio cuerpo, avanzando como una “cinta humana” hasta llegar a la meta.`,
+  objetivo: `Fomentar trabajo en equipo, comunicación, coordinación colectiva y responsabilidad física.`,
+  materiales: "Una colchoneta.",
+  variantes: `• Transporte inverso: deben avanzar hacia atrás.\n• Transporte con obstáculos a sortear.\n• Cambio de ritmo: más rápido o más lento según orden.`,
+  imagenes: ["/juegos/Imagen36.png"]
+},
+{
+  id: "juego-37",
+  title: "Juegos con bastón",
+  tags: ["parejas", "grupal"],
+  descripcion: `Se utilizan bastones o tubos de PVC para ejecutar distintas dinámicas orientadas al equilibrio, coordinación y trabajo conjunto. En parejas, cada jugador sostiene un extremo del bastón y otras parejas deben pasar por arriba o por debajo. En grupos de cuatro, se forman cuadrados lanzando bastones hacia compañeros opuestos o en diagonal. Además, individualmente se pueden practicar equilibrios como sostener el bastón sobre la palma de la mano o el pie mientras se avanza.`,
+  objetivo: `Favorecer coordinación motriz, equilibrio, control corporal y colaboración entre participantes.`,
+  materiales: "Bastones o tubos de PVC.",
+  variantes: `• Carrera equilibrando bastones.\n• Pases de bastón con saltos.\n• Cuadrado rotante: los cuatro rotan mientras siguen lanzando.`,
+  imagenes: ["/juegos/Imagen37.png"]
+},
+{
+  id: "juego-38",
+  title: "10 pases sin ser interceptado",
+  tags: ["equipos"],
+  descripcion: `Dos equipos compiten en un espacio delimitado. El objetivo es lograr 10 pases consecutivos sin que el balón toque el suelo y sin que el equipo rival lo intercepte. Cada vez que se pierde la posesión, el conteo vuelve a cero y la pelota cambia de equipo.`,
+  objetivo: `Fomentar trabajo en equipo, visión periférica, defensa activa, movilidad constante y toma de decisiones.`,
+  materiales: "Un balón y petos de colores.",
+  variantes: `• 5 pases en velocidad.\n• Solo pases altos.\n• Sin desplazarse con balón: deben pasar inmediatamente.\n• Defensa congelada por 2 segundos cada vez que intercepta.`,
+  imagenes: ["/juegos/Imagen38.png"]
+},
+{
+  id: "juego-39",
+  title: "Tombo",
+  tags: ["equipos"],
+  descripcion: `Juego grupal en donde un equipo batea y corre mientras el otro lanza y defiende. El defensor lanza la pelota hacia el bateador, quien debe golpearla con la mano abierta e iniciar la carrera hacia las bases. El equipo defensor debe recuperar la pelota lo más rápido posible para “quemar” al corredor antes de que llegue a una base segura. Si completa la vuelta suma 1 punto; si es quemado, queda eliminado o pasa a la zona designada. Tras un número acordado de eliminaciones, los equipos cambian de rol.`,
+  objetivo: `Desarrollar agilidad, coordinación, estrategia, comunicación y toma de decisiones bajo presión.`,
+  materiales: "Pelota y bases.",
+  variantes: `• Lanzamientos dobles: dos pelotas en juego.\n• Bases móviles.\n• Tombo silencioso: no se puede hablar al defender.`,
+  imagenes: ["/juegos/Imagen39.png"]
+},
+{
+  id: "juego-40",
+  title: "Carrera de cuncunas",
+  tags: ["equipos"],
+  descripcion: `Equipos formados en hilera. El primero corre a buscar un globo, vuelve y lo coloca entre su torso y el del siguiente formando la “cuncuna”. Luego ambos van por un segundo globo, vuelven, y se unen al tercer participante. Esto continúa hasta unir a todo el equipo sin que los globos caigan ni se separen.`,
+  objetivo: `Fomentar coordinación, trabajo en equipo, equilibrio y rapidez bajo presión.`,
+  materiales: "Globos.",
+  variantes: `• Cuncuna doble: se forman dos columnas paralelas.\n• Cuncuna con obstáculos.\n• Cuncuna muda: prohibido hablar mientras coordinan.`,
+  imagenes: ["/juegos/Imagen40.png"]
+},
+{
+  id: "juego-41",
+  title: "Pases mano-pie",
+  tags: ["equipos"],
+  descripcion: `Dos equipos se enfrentan en una cancha con arcos. La pelota solo puede ser agarrada con las manos, pero debe pasarse al resto del equipo usando los pies; el receptor vuelve a tomarla con las manos. No se puede avanzar con la pelota en la mano ni entrar al área rival (solo el arquero puede hacerlo). El objetivo es progresar colectivamente hacia el arco rival y anotar pateando.`,
+  objetivo: `Desarrollar coordinación mano–pie, toma de decisiones rápidas, respeto por reglas y estrategias colectivas.`,
+  materiales: "Pelota y arcos.",
+  variantes: `• Pase obligatorio a todos antes de patear.\n• Campo reducido.\n• Solo se puede dar 3 pasos antes de soltar la pelota.`,
+  imagenes: ["/juegos/Imagen41.png"]
+},
+{
+  id: "juego-42",
+  title: "Juegos de confianza",
+  tags: ["parejas", "grupal"],
+  descripcion: `Ejercicios destinados a trabajar la confianza entre compañeros. Primero, en parejas similares en estatura, un participante se coloca rígido y de espaldas, dejándose caer para que el compañero lo sostenga. Luego se intercambian roles. Después, las parejas se unen para formar grupos de 3 o 4, dejando a una persona al centro. Esta se deja caer en cualquier dirección mientras el grupo la detiene suavemente y la impulsa hacia otro lado, generando un balanceo continuo sin que caiga.`,
+  objetivo: `Fomentar la confianza mutua, responsabilidad, comunicación no verbal y seguridad corporal.`,
+  materiales: "No requiere.",
+  variantes: `• Caídas desde mayor distancia (controlada).\n• Círculo dinámico que rota lentamente.\n• Versión con ojos vendados para el participante del centro.`,
+  imagenes: ["/juegos/Imagen42.png"]
+},
+{
+  id: "juego-43",
+  title: "El telégrafo",
+  tags: ["equipos"],
+  descripcion: `Se forman equipos de 4 a 7 personas en hilera. El líder (último de la fila) observa un dibujo que muestra el profesor y luego lo “transmite” trazándolo con su dedo en la espalda del compañero de adelante. Cada jugador repite lo que sintió en la espalda de la persona siguiente. El primero de la fila debe dibujar en papel lo que recibió. Gana el equipo cuyo dibujo final se asemeje más al original. Se realizan varias rondas cambiando líder y dibujante.`,
+  objetivo: `Fomentar comunicación efectiva, precisión, atención y trabajo en equipo.`,
+  materiales: "Papel y lápices.",
+  variantes: `• Dibujos más complejos.\n• Transmisión sin usar el dedo (solo nudillos).\n• Rondas de velocidad: tiempo limitado para transmitir.`,
+  imagenes: ["/juegos/Imagen43.png"]
+},
+{
+  id: "juego-44",
+  title: "Trampolín, Canasto y Pelotas de Tenis",
+  tags: ["equipos"],
+  descripcion: `Equipos compiten lanzando pelotas de tenis hacia un trampolín para que reboten y caigan dentro de un canasto ubicado más adelante. Solo cuentan las pelotas que entren en el canasto tras el rebote. Se avanza por fases y se realiza una ronda final para definir al ganador.`,
+  objetivo: `Trabajar la coordinación óculo-manual, precisión en el lanzamiento, control de fuerza, planificación estratégica y motivación grupal.`,
+  materiales: "Trampolín, pelotas de tenis y canasto.",
+  variantes: `• Distancias progresivas.\n• Rebote obligatorio con distintos ángulos.\n• Lanzamientos desde posiciones específicas (sentado, de rodillas, lateral).`,
+  imagenes: ["/juegos/Imagen44.png"]
+},
+{
+  id: "juego-45",
+  title: "Las colitas",
+  tags: ["equipos"],
+  descripcion: `Dos equipos compiten usando petos como “colitas”. Cada jugador debe intentar robar las colitas del equipo rival y guardarlas en una zona propia. Si un jugador pierde su colita queda eliminado, pero puede ser revivido si un compañero recupera una colita del sector rival y se la devuelve. Se puede limitar el espacio o eliminar la resurrección según la variante.`,
+  objetivo: `Trabajar velocidad de reacción, estrategia grupal, coordinación y entretenimiento competitivo.`,
+  materiales: "Petos (uno por participante).",
+  variantes: `• Campo reducido.\n• Sin revivir.\n• Tiempo limitado con conteo final de colitas.`,
+  imagenes: ["/juegos/Imagen45.png"]
+},
+{
+  id: "juego-46",
+  title: "Jesús lleva agua",
+  tags: ["equipos"],
+  descripcion: `Equipos compiten transportando agua mediante un tubo de PVC colocado sobre los hombros, con dos vasos llenos amarrados a cada extremo. El jugador debe recorrer un circuito sin derramar agua, volver y entregar el tubo al siguiente compañero. Gana el equipo que termina con más agua en los vasos.`,
+  objetivo: `Desarrollar equilibrio, coordinación, concentración y cuidado en el transporte.`,
+  materiales: "Tubo de PVC y vasos con agua.",
+  variantes: `• Circuitos con giros más exigentes.\n• Carrera en parejas uniendo dos tubos.\n• Agua teñida para medir pérdidas con mayor claridad.`,
+  imagenes: ["/juegos/Imagen46.png"]
+},
+{
+  id: "juego-47",
+  title: "Cachipún Alemán",
+  tags: ["equipos"],
+  descripcion: `Dos equipos se enfrentan realizando un circuito en zigzag entre conos. Al llegar a la esquina designada, el participante debe avanzar saltando en un pie hasta encontrarse con el contrincante del otro equipo. Allí juegan una ronda rápida de cachipún. Quien gana continúa hacia la meta para sumar puntos; quien pierde vuelve al inicio. El juego se mantiene por tiempo y gana el equipo que suma más puntos.`,
+  objetivo: `Desarrollar agilidad, toma rápida de decisiones, anticipación, coordinación motriz y trabajo en equipo.`,
+  materiales: "Conos y espacio delimitado.",
+  variantes: `• Zigzag doble.\n• Saltos dobles en lugar de un pie.\n• Ronda de cachipún al mejor de tres.`,
+  imagenes: ["/juegos/Imagen47.png"]
+},
+{
+  id: "juego-48",
+  title: "El Pulpo",
+  tags: ["equipos", "grupal"],
+  descripcion: `Grupos de 4 o 5 personas se enganchan de codo con codo mirando hacia afuera, formando “el pulpo”. A la señal, deben avanzar unidos hasta una zona con objetos pequeños, agacharse coordinadamente sin soltarse, tomar uno y regresar a la base. Esto se repite hasta que termine el tiempo. Puede hacerse más difícil aumentando la distancia, usando objetos más pequeños o exigiendo posturas específicas.`,
+  objetivo: `Fomentar cooperación, unión grupal, coordinación y movimiento sincronizado.`,
+  materiales: "Objetos pequeños (como lentejas).",
+  variantes: `• Objetos más pequeños o resbalosos.\n• Pulpo gigante: juntar dos grupos.\n• Recolección cooperativa: meta común entre todos los pulpos.`,
+  imagenes: ["/juegos/Imagen48.png"]
+},
+{
+  id: "juego-49",
+  title: "Acrosport",
+  tags: ["equipos"],
+  descripcion: `Grupos de 4 o 5 personas, con un líder, deben recrear formaciones de acrosport mostradas por el encargado. El líder corre a memorizar la figura y vuelve para guiar al equipo. Si olvida algo, puede regresar cuantas veces necesite. Las figuras tienen una posición opcional para grupos de 4. El primer equipo en recrear correctamente la formación gana un punto. Se juegan rondas durante 10 minutos.`,
+  objetivo: `Trabajar fuerza, memoria visual, coordinación grupal, liderazgo y rapidez en ejecución.`,
+  materiales: "Espacio amplio en cancha.",
+  variantes: `• Formaciones más complejas.\n• Tiempo reducido.\n• Líder secreto: el líder no puede hablar, solo gesticular.`,
+  imagenes: ["/juegos/Imagen49.png"]
+},
+{
+  id: "juego-50",
+  title: "Letra a Letra",
+  tags: ["equipos"],
+  descripcion: `Equipos de 7–8 participantes reciben un set de letras idéntico. El anfitrión lee una definición y los equipos deben deducir la palabra y organizarse en fila sosteniendo las letras correctas para que se lean de izquierda a derecha. El más rápido gana el punto. Se puede aumentar la dificultad con palabras más largas, distractores o rondas silenciosas donde no pueden hablar.`,
+  objetivo: `Fomentar trabajo en equipo, agilidad mental, liderazgo distribuido, comunicación efectiva y toma rápida de decisiones.`,
+  materiales: "Set de letras por equipo.",
+  variantes: `• Definiciones engañosas.\n• Palabras que comparten letras.\n• Ronda silenciosa (sin hablar).`,
+  imagenes: ["/juegos/Imagen50.png"]
+},
 ];
 
 // ----------------------------
