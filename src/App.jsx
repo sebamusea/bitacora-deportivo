@@ -450,6 +450,7 @@ const DINAMICAS_DATA = [
   {
     id: "aram-sam-sam",
     titulo: "Aram Sam Sam",
+    tags: ["grupal"],
     descripcion: `En esta actividad, los estudiantes se ponen de pie y acompañan la canción con una serie de movimientos coordinados. La letra es:
 
 A Ram Sam Sam, A Ram Sam Sam
@@ -471,6 +472,7 @@ Durante la primera parte, realizan gestos hacia abajo simulando lluvia; en la se
   {
     id: "cazador-leon-escopeta",
     titulo: "Cazador, León y Escopeta",
+    tags: ["grupal"],
     descripcion: `La dinámica consiste en coordinar equipos mediante mímicas. El grupo se separa en dos equipos, y cada uno elige discretamente una de las tres opciones: cazador, león o escopeta. Luego, a la cuenta de tres, ambos equipos se dan vuelta mostrando su elección mediante una mímica.
 
 Mímicas:
@@ -492,6 +494,7 @@ El equipo donde todos hagan la misma mímica y cuya elección domine a la del eq
   {
     id: "larai-lai-lero",
     titulo: "Larai lai lero",
+    tags: ["grupal"],
     descripcion: `Esta dinámica consiste en acompañar la canción:
 
 “Larai lai lero,
@@ -513,6 +516,7 @@ Además, existe una variante más compleja donde, en lugar de los dedos, se util
   {
     id: "noble-duque-juan",
     titulo: "El noble duque Juan",
+    tags: ["grupal"],
     descripcion: `El profesor canta la canción:
 
 “El noble duque Juan,
@@ -533,6 +537,7 @@ La dinámica base consiste en que los alumnos estén sentados, poniéndose de pi
   {
     id: "noe-arca",
     titulo: "Un día Noé, en su arca partió",
+    tags: ["grupal"],
     descripcion: `Los estudiantes cantan la canción:
 
 “Un día Noé en su arca partió
@@ -550,6 +555,7 @@ Cada parte de la canción se acompaña con gestos que representen a cada animal.
   {
     id: "evolucion",
     titulo: "Evolución",
+    tags: ["grupal"],
     descripcion: `Todos los participantes comienzan como “Amebas”. Para avanzar de nivel deben jugar cachipún con personas del mismo nivel.
 
 Reglas:
@@ -571,6 +577,7 @@ Niveles y gestos:
   {
     id: "hoyo-fondo-mar",
     titulo: "Hay un hoyo en el fondo de la mar",
+    tags: ["grupal"],
     descripcion: `Dinámica basada en la canción acumulativa que parte con:
 
 “Hay un hoyo en el fondo de la mar...”.
@@ -587,6 +594,7 @@ La versión final termina acumulando todas las palabras en orden, repitiendo pro
   {
     id: "tilin-tilon",
     titulo: "Tilín tilón osito regalón",
+    tags: ["grupal"],
     descripcion: `La dinámica sigue la canción:
 
 “Tilín tilón,
@@ -608,6 +616,7 @@ Gestos:
   {
     id: "ay-llepo",
     titulo: "Ay llepo, wi tai tai llepo",
+    tags: ["grupal"],
     descripcion: `En parejas sentadas frente a frente, deben mover una pelotita siguiendo el ritmo de:
 
 “Ay llepo,
@@ -627,6 +636,7 @@ Reglas:
   {
     id: "cabeza-boca-mano-codo",
     titulo: "Cabeza, cabeza boca, mano codo",
+    tags: ["grupal"],
     descripcion: `Dinámica acumulativa donde cada palabra corresponde a una acción corporal: cabeza, boca, mano, codo, pie, rodilla, media vuelta, vuelta entera, medio salto, salto entero, medio paso, paso entero.
 
 La secuencia se repite agregando progresivamente cada movimiento hasta hacerlos todos en orden.`,
