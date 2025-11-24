@@ -1103,6 +1103,106 @@ La secuencia se repite agregando progresivamente cada movimiento hasta hacerlos 
 ];
 
 const JUEGOS_DATA = [
+  {
+  id: "juego-1",
+  title: "Pinta",
+  tags: ["grupal"],
+  descripcion: `El objetivo es elevar la energía del grupo, mejorar la velocidad de reacción y promover el compañerismo. Una, dos o tres personas previamente designadas persiguen al resto para “pintarlos”. Existen múltiples variantes que modifican la forma en que el jugador pintado queda inmovilizado o puede ser liberado.`,
+  objetivo: `Aumentar la activación física, mejorar la velocidad de reacción, fomentar la cooperación y promover un ambiente dinámico.`,
+  materiales: "No requiere materiales.",
+  variantes: `• Pinta puente: quien es pintado debe formar un puente; para liberarlo, otro jugador debe pasar por debajo.\n• Pinta tortuga: el pintado queda boca arriba en el suelo “como tortuga” hasta que alguien lo dé vuelta.\n• Pinta caracol: el pintado adopta postura de caracol, con los “cachitos al sol”.\n• Pinta bosque: el jugador pintado se queda completamente quieto como un árbol (no hay liberación).\n• Pinta mixta: hombres vs. mujeres.`,
+  imagenes: ["/juegos/Imagen1.png"]
+},
+{
+  id: "juego-2",
+  title: "Saludos",
+  tags: ["grupal"],
+  descripcion: `Los participantes se desplazan dentro de un espacio limitado buscando interactuar con la mayor cantidad de compañeros posible durante un tiempo acotado. La dinámica incluye tres formas de interacción: intercambio de nombres, mención de la carrera que estudian y, finalmente, el intercambio de sonrisas.`,
+  objetivo: `Fomentar la socialización, el reconocimiento entre compañeros, la desinhibición y un ambiente positivo.`,
+  materiales: "No requiere materiales.",
+  variantes: "",
+  imagenes: ["/juegos/Imagen2.png"]
+},
+{
+  id: "juego-3",
+  title: "Cachipún",
+  tags: ["parejas"],
+  descripcion: `Los participantes se forman en parejas y realizan duelos rápidos de cachipún. Dependiendo de la ronda, el perdedor debe realizar una penitencia específica mientras el ganador ejecuta un rol complementario.`,
+  objetivo: `Promover la desinhibición, la confianza entre compañeros y aumentar la energía a través de interacciones lúdicas.`,
+  materiales: "No requiere materiales.",
+  variantes: `• Caballito: el perdedor carga al ganador y camina 5 pasos.\n• Guagua: el perdedor debe cargar al ganador en brazos.\n• Puente: el perdedor forma un puente y el ganador pasa gateando por debajo.`,
+  imagenes: ["/juegos/Imagen3.png"]
+},
+{
+  id: "juego-4",
+  title: "Yo me llamo…",
+  tags: ["grupal"],
+  descripcion: `Los participantes forman un círculo y cada uno debe decir el nombre de la persona a su derecha e izquierda, señalándolas con la mano correspondiente. Si alguien se equivoca, el grupo debe reordenarse y reiniciar la actividad. Puede usarse la variante en que se debe señalar al compañero opuesto usando la mano inversa.`,
+  objetivo: `Fortalecer la memoria, el reconocimiento entre compañeros, las habilidades sociales y la coordinación motora.`,
+  materiales: "No requiere materiales.",
+  variantes: "",
+  imagenes: ["/juegos/Imagen4.png"]
+},
+{
+  id: "juego-5",
+  title: "Pinta Pareja",
+  tags: ["parejas"],
+  descripcion: `Versión cooperativa de la pinta. Los jugadores se desplazan en parejas tomadas de la mano. Si el número de participantes es impar, la persona sola comienza siendo quien la “lleva”, y si es par, dos personas la llevan juntas. Cuando una pareja pinta a otra, se forma una nueva pareja con el jugador recién pintado.`,
+  objetivo: `Promover la coordinación, el trabajo en equipo y el movimiento continuo.`,
+  materiales: "No requiere materiales.",
+  variantes: `• En la variante de cuartetos, los jugadores se agrupan en grupos de cuatro tomados de las manos. Una pareja lleva la pinta y, al pintar a un cuarteto, este debe dividirse en dos parejas: una se une a los que pintan y la otra queda encargada de llevarla.`,
+  imagenes: ["/juegos/Imagen5.png"]
+},
+{
+  id: "juego-6",
+  title: "Casa, inquilino, terremoto",
+  tags: ["tríos", "grupal"],
+  descripcion: `Los participantes se organizan en tríos: dos personas forman una “casa” levantando los brazos tomados de las manos, y la tercera es el “inquilino” que se ubica bajo ese techo. El líder da órdenes en voz alta, y cada una requiere un cambio rápido de posición o de roles.`,
+  objetivo: `Desarrollar la atención, la velocidad de reacción y la reorganización constante dentro del grupo.`,
+  materiales: "No requiere materiales.",
+  variantes: `Órdenes:\n• Casa: las casas deben moverse y cubrir a un nuevo inquilino.\n• Inquilino: los inquilinos buscan una nueva casa.\n• Terremoto: todas las formaciones se desarman y deben armarse nuevos tríos.`,
+  imagenes: ["/juegos/Imagen6.png"]
+},
+{
+  id: "juego-7",
+  title: "Hermanos de…",
+  tags: ["parejas"],
+  descripcion: `Cada persona tiene una pareja ubicada en el extremo opuesto del espacio. El líder grita “¡Hermanos de…!” seguido por una parte del cuerpo, y los participantes deben correr y juntarla con su pareja lo más rápido posible.`,
+  objetivo: `Mejorar la velocidad de reacción, la movilidad y reforzar la interacción entre compañeros.`,
+  materiales: "No requiere materiales.",
+  variantes: "",
+  imagenes: ["/juegos/Imagen7.png"]
+},
+{
+  id: "juego-8",
+  title: "Caballo/Camello",
+  tags: ["grupal"],
+  descripcion: `El grupo se divide en dos equipos enfrentados: caballos y camellos. Al escuchar cuál equipo fue nombrado, ese grupo debe correr hacia su zona segura mientras el equipo contrario intenta atraparlos. Es fundamental mantener el enfrentamiento por duplas antes de la señal.`,
+  objetivo: `Desarrollar agilidad, reacción inmediata, velocidad de desplazamiento y respeto por las reglas.`,
+  materiales: "No requiere materiales.",
+  variantes: `• Incorporar palabras que suenen parecidas.\n• Comenzar acostados en el suelo.\n• Partir de espaldas antes de correr.`,
+  imagenes: ["/juegos/Imagen8.png"]
+},
+{
+  id: "juego-9",
+  title: "Tomada de bomberos",
+  tags: ["grupal"],
+  descripcion: `Los jugadores se organizan en equipos en fila. Dos integrantes cumplen el rol de “bomberos”: con la mano izquierda toman su muñeca derecha y con la derecha toman la muñeca izquierda del compañero, formando un asiento firme. Sobre esa “camilla” trasladan a un compañero hasta el otro extremo de la cancha y regresan a buscar al siguiente.`,
+  objetivo: `Fomentar la coordinación, fuerza física, trabajo en equipo y confianza entre los jugadores.`,
+  materiales: "No requiere materiales.",
+  variantes: `Los roles de bomberos pueden ir rotando para que todos participen tanto cargando como siendo trasladados.`,
+  imagenes: ["/juegos/Imagen9.png"]
+},
+{
+  id: "juego-10",
+  title: "Cadena humana",
+  tags: ["grupal"],
+  descripcion: `Los participantes forman una hilera. El primero corre a máxima velocidad hasta la línea media y vuelve a buscar al segundo. Tomados de la mano, repiten el recorrido y buscan al siguiente, acumulando compañeros hasta que la cadena completa llegue a la línea y regrese al punto inicial sin soltarse.`,
+  objetivo: `Mejorar la resistencia, la velocidad y la coordinación grupal.`,
+  materiales: "No requiere materiales.",
+  variantes: "",
+  imagenes: ["/juegos/Imagen10.png"]
+},
   ...makePlaceholders("Juego", 50, "lúdico"),
 ];
 
@@ -1151,6 +1251,13 @@ function NavBar({ current, onChange }) {
 function ActivityCard({ item, onOpen, onTagClick }) {
   return (
     <Card className="hover:shadow-lg border border-blue-100 transition-shadow duration-200">
+      {item.imagenes?.length > 0 && (
+        <img
+          src={item.imagenes[0]}
+          alt={item.title}
+          className="w-full h-40 object-cover rounded-t-xl"
+        />
+      )}
       <CardHeader>
         <CardTitle className="text-base line-clamp-1">{item.title}</CardTitle>
       </CardHeader>
@@ -1250,6 +1357,20 @@ function ActivityGrid({ data, label }) {
                       <div>
                         <h4 className="font-semibold text-slate-800">Variantes</h4>
                         <p className="whitespace-pre-line">{selected.variantes}</p>
+                      </div>
+                    )}
+
+                    {/* IMÁGENES — UNA O VARIAS */}
+                    {selected.imagenes?.length > 0 && (
+                      <div className="space-y-4 mt-4">
+                        {selected.imagenes.map((img, i) => (
+                          <img
+                            key={i}
+                            src={img}
+                            alt={`Imagen ${i + 1}`}
+                            className="w-full rounded-xl border shadow-sm"
+                          />
+                        ))}
                       </div>
                     )}
                   </div>
