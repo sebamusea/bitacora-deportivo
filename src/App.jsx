@@ -644,7 +644,462 @@ La secuencia se repite agregando progresivamente cada movimiento hasta hacerlos 
     materiales: `No requiere materiales.`,
     variantes: `Realizar la secuencia en orden invertido o aumentar la velocidad.`
   },
-  ...makePlaceholders("Dinámica", 50, "grupo"),
+  {
+  id: "yo-tengo-un-leon-grande-y-feroz",
+  title: "Yo tengo un león grande y feroz",
+  description: "Esta dinámica consiste en que una persona irá cantando la canción: “Yo tengo un león, muy grande y feroz, vive en un zoológico, tiene melena, y cola morena, y cuando se rasguña, se deja una uña”. En cada frase, el resto del grupo debe repetir el verso antes de avanzar al siguiente. Cada verso incluye un movimiento corporal asociado: mostrar garras, sacudir la melena, etc. La repetición continua exige atención y coordinación entre gesto y palabra.",
+  objetivo: "Desarrollar la memoria auditiva, la coordinación entre gesto y palabra y la expresión corporal mediante la repetición de versos y movimientos asociados. Promueve la atención sostenida y la participación activa del grupo.",
+  materiales: "No requiere materiales.",
+  variantes: "",
+  tags: ["grupal"],
+},
+
+{
+  id: "el-dedo-gordo-se-mueve",
+  title: "El dedo gordo se mueve",
+  description: "Esta dinámica consiste en cantar una secuencia acumulativa donde se van nombrando distintas partes del cuerpo mientras se las mueve al mismo tiempo. Los versos incluyen: “el dedo derecho se mueve…”, “el dedo izquierdo se mueve…”, “la mano derecha…”, “la mano izquierda…”, “pie derecho…”, “pie izquierdo…”, “rodilla derecha…”, repitiéndose tres veces cada frase. A medida que avanza, los participantes deben mantener en movimiento todas las partes mencionadas previamente, acumulando acciones.",
+  objetivo: "Trabajar la coordinación motriz global y activar al grupo de forma lúdica, promoviendo la atención y el seguimiento de instrucciones a través de secuencias acumulativas.",
+  materiales: "No requiere materiales.",
+  variantes: "",
+  tags: ["grupal"],
+},
+
+{
+  id: "el-chavo-del-8-dinamica",
+  title: "El Chavo del 8",
+  description: "Los participantes se colocan en círculo y posicionan sus manos alternando una arriba y otra abajo respecto a las manos de sus compañeros. Se canta: “Este es el juego del chavo del 8, muy divertido claro que sí, hay que contar del uno hasta el ocho, 1,2,3,4,5,6,7,8”. Durante la canción, cada persona cruza su mano que quedó arriba para chocar la mano del compañero correspondiente, generando una cadena rítmica. Quien recibe el choque en el número 8 debe sacar la mano rápidamente para no ser golpeado.",
+  objetivo: "Favorecer la coordinación motriz y el trabajo rítmico en grupo mediante una secuencia sincronizada de movimientos. Desarrolla la atención, la rapidez de reacción y la interacción lúdica entre los participantes.",
+  materiales: "No requiere materiales.",
+  variantes: "",
+  tags: ["grupal"],
+},
+
+{
+  id: "pachi-patos",
+  title: "Pachí (patos)",
+  description: "Los participantes se organizan en tríos formando hileras. El profesor canta: “Ahí viene mamá pata (pachí). Ahí viene papá pato (pachí). Ahí vienen los patitos (pachí, pachí, pachí). Ten cuidado con los patitos, con los patitos no te metai”. Cada vez que aparece un “pachí”, el grupo debe gritar la palabra y dar un paso adelante con el mismo pie. Al llegar a la parte final, se camina al compás continuo de la canción hasta terminar.",
+  objetivo: "Fomentar la coordinación grupal y psicomotriz, además de trabajar la reacción a estímulos auditivos y la sincronización rítmica.",
+  materiales: "No requiere materiales.",
+  variantes: "",
+  tags: ["grupal"],
+},
+
+{
+  id: "tengo-un-monton-de-ricos-cocos",
+  title: "Tengo un montón de ricos cocos",
+  description: "Los participantes forman un semicírculo mientras 2 personas están al centro. Se canta: “Tengo un montón de ricos cocos (ding ding ding), andan en fila míralos (bom bom bom). Grandes, chicos, feos y bonitos. Tengo un coco para ti.” Durante la canción, los del centro deben desplazarse aleatoriamente y reaccionar con acciones específicas: en “ding ding ding” flexionar rodillas; en “grandes” estirar brazos arriba; en “chicos” agacharse; en “feos y bonitos” poner manos en la cintura y mover caderas. Al decir “tengo un coco para ti”, deben elegir a alguien del semicírculo y apuntarlo para que se incorpore a la fila.",
+  objetivo: "Estimular la expresión corporal, la memoria auditiva y la coordinación grupal mediante gestos asociados a la canción.",
+  materiales: "No requiere materiales.",
+  variantes: "",
+  tags: ["grupal"],
+},
+
+{
+  id: "palo-palito-palo-eh",
+  title: "Palo palito palo eh",
+  description: "Se canta: “Palo palo palo, palo palito palo eh, eh eh eh, palo palito palo eh”. Cada vez que se dice “palo”, se levantan ambas manos con el dedo índice arriba; cuando se dice “palito”, se levanta solo el dedo meñique; cuando aparece “eh”, se levanta el pulgar. La dinámica exige sincronizar movimientos finos con la letra.",
+  objetivo: "Desarrollar la coordinación fina, la discriminación auditiva y la memoria rítmica mediante gestos precisos.",
+  materiales: "No requiere materiales.",
+  variantes: "",
+  tags: ["individual"],
+},
+
+{
+  id: "hercules",
+  title: "Hércules",
+  description: "El grupo recita movimientos acompañando las frases: “Juan es un Hércules” (levantar brazos mostrando músculos), “Mamá es sonámbula” (avanzar con brazos extendidos como zombi), “Papá no hace nada” (levantar brazos en signo de pregunta), “Se la lleva todo el día sentado en una silla” (flexionar rodillas simulando sentarse), “Jugando con el gato” (acariciar un gato imaginario), “Tirándole la cola” (gesto de tirar una cola).",
+  objetivo: "Fomentar la expresión corporal y la coordinación grupal mediante mímicas simples asociadas a frases cantadas.",
+  materiales: "No requiere materiales.",
+  variantes: "",
+  tags: ["grupal"],
+},
+
+{
+  id: "piston",
+  title: "Pistón",
+  description: "Los participantes forman un círculo, alternando posiciones iniciales entre agachados y de pie. Se canta: “Es el pistón, el que hace andar a la máquina. Es el pistón, el que hace andar a vapor”. Cada vez que aparece la palabra “pistón”, quienes están de pie deben agacharse y quienes están agachados deben levantarse. Luego se repite la canción diciendo “pistón pistón”, y la cantidad se va aumentando progresivamente hasta que alguien falla.",
+  objetivo: "Trabajar la atención, la velocidad de reacción y la coordinación grupal bajo cambios rápidos de posición.",
+  materiales: "No requiere materiales.",
+  variantes: "",
+  tags: ["grupal"],
+},
+
+{
+  id: "yo-tengo-un-gusano",
+  title: "Yo tengo un gusano",
+  description: "El grupo forma un círculo y el líder en el centro dice frases acompañadas de movimientos que los demás deben imitar. Ejemplo: “Yo tengo un gusano” (mostrar un gusano), “Levanto el gusano” (levantarlo), “Tiro el gusano” (lana al piso), “Recojo el gusano”, “Me como el gusano”, “Y lo chuuuuupo”, “Lo vomiiiiito”, “Lo abraaaaazo”. Siempre termina con: “¿Y el cuerpo? Relajao relajao relajao”, donde los participantes bailan relajadamente.",
+  objetivo: "Desarrollar la imitación, la expresión corporal, la atención y la creatividad, manteniendo la coordinación grupal con secuencias guiadas.",
+  materiales: "No requiere materiales.",
+  variantes: "",
+  tags: ["grupal"],
+},
+
+{
+  id: "el-papa-de-abraham",
+  title: "El papá de Abraham",
+  description: "Los participantes comienzan poniendo un dedo sobre la boca simulando un bigote. Se canta: “El papá de Abraham, el papá de Abraham, tenía hijos, 7 hijos, que nunca jugaban, que nunca reían, y que solo hacían, como tú”. Al decir “como tú”, se apunta a alguien. En la siguiente ronda, la persona apuntada debe agregar un nuevo gesto para que el resto imite, manteniendo siempre el bigote inicial.",
+  objetivo: "Trabajar la imitación, la creatividad, la expresión corporal y la atención grupal, incorporando gestos nuevos en cada ronda.",
+  materiales: "No requiere materiales.",
+  variantes: "",
+  tags: ["grupal"],
+},
+{
+  id: "quien-le-robo-el-sombrero",
+  title: "Quién le robó el sombrero al profesor",
+  description:
+    "Esta actividad se realiza con un grupo de gente. Se elige a una persona (persona 1) para comenzar, y el grupo entero entona el siguiente canto: “(Nombre de la persona 1) le robó el sombrero al profesor.” Persona 1 responde: “¿Quién, yo?”. El grupo dice: “Sí, tú”. Persona 1 responde: “Yo no fui”. El grupo pregunta: “¿Quién fue?”. Y la persona responde mencionando a otra persona del grupo. La dinámica continúa repitiendo el canto con cada nuevo nombre, avanzando de participante en participante hasta que todos hayan participado o el grupo decida finalizar.",
+  objetivo:
+    "Promover la atención, la participación activa, la memoria verbal inmediata y la interacción grupal mediante una dinámica de repetición y traspaso.",
+  materiales: "No requiere materiales.",
+  variantes: "",
+  tags: ["grupal"],
+},
+
+{
+  id: "head-shoulders-knees-and-toes",
+  title: "Head, shoulders, knees and toes",
+  description:
+    "Esta actividad consiste en seguir una canción en inglés mientras se señala la parte del cuerpo mencionada. Las palabras y sus partes correspondientes son: Head (cabeza), Shoulders (hombros), Knees (rodillas), Toes (pies), Eyes (ojos), Ears (orejas), Mouth (boca), Nose (nariz). La canción completa es: “Head, shoulders, knees and toes, knees and toes. Head, shoulders, knees and toes, knees and toes. And eyes and ears and mouth and nose. Head, shoulders, knees and toes, knees and toes”. Cada vez que se nombra una parte del cuerpo, los participantes deben tocarla rápidamente siguiendo el ritmo.",
+  objetivo:
+    "Fomentar la coordinación corporal, el seguimiento auditivo y la discriminación motriz al identificar distintas partes del cuerpo bajo ritmo acelerado.",
+  materiales: "No requiere materiales.",
+  variantes: "",
+  tags: ["grupal"],
+},
+
+{
+  id: "suku-suku",
+  title: "Suku Suku",
+  description:
+    "Dinámica rítmica donde los participantes forman un semicírculo y siguen una coreografía guiada por el profesor. El líder selecciona un grupo con alguna característica (por ejemplo, quienes juegan fútbol) y canta: “[Grupo seleccionado] van a bailar, charam la danza del suku suku (x2). Suku suku para adelante, suku suku para atrás (x2).” En “charam la danza del suku suku”, los seleccionados levantan ambas piernas estiradas como en tijeras. En “suku suku para adelante” dan pasos hacia adelante al ritmo, y luego hacia atrás en “suku suku para atrás”.",
+  objetivo:
+    "Estimular la coordinación grupal, la expresión corporal y el ritmo, además de promover la participación activa al seleccionar distintos grupos dentro del conjunto.",
+  materiales: "No requiere materiales.",
+  variantes: "",
+  tags: ["grupal"],
+},
+
+{
+  id: "mariposa",
+  title: "Mariposa",
+  description:
+    "Actividad similar a la dinámica 'Chocolate', pero esta vez con movimientos de pies. La canción es: “Mari mari po po, Mari mari sasa, Mari po, Mari sa, Mari po sa”. Cada palabra corresponde a un salto distinto: “Mari” → saltar con piernas separadas; “Po” → saltar con piernas juntas; “Sa” → saltar en un solo pie. Se sigue el ritmo de la canción, pudiendo acelerar la velocidad para aumentar la dificultad.",
+  objetivo:
+    "Trabajar la coordinación motriz, la discriminación auditiva y la estabilidad corporal mediante saltos estructurados según estímulos verbales.",
+  materiales: "No requiere materiales.",
+  variantes: "",
+  tags: ["grupal"],
+},
+
+{
+  id: "hombro-hombre-goma",
+  title: "El hombro del hombre de goma",
+  description:
+    "Actividad acumulativa donde se incorporan partes del cuerpo progresivamente mientras se repite una frase cada vez más larga. Se inicia tocando el hombro y diciendo: “El hombro del hombre de goma”. Luego se suma: “El brazo del hombro del hombre de goma”, tocando ambas partes en orden. El listado completo de partes a incorporar, en orden, es: hombro, brazo, codo, antebrazo, muñeca, mano, dedo, falange, falangina, falangeta. La frase final queda: “La falangeta de la falangina de la falange del dedo de la mano de la muñeca del antebrazo del codo del brazo del hombro del hombre de goma.”",
+  objetivo:
+    "Estimular la memoria secuencial, la coordinación corporal y la atención mediante una estructura acumulativa que se vuelve progresivamente más compleja.",
+  materiales: "No requiere materiales.",
+  variantes: "",
+  tags: ["individual", "grupal"],
+},
+
+{
+  id: "chapulin-colorado",
+  title: "Chapulín Colorado",
+  description:
+    "Los participantes saltan siguiendo la canción: “Chapulín colorado, me hago pis o me aguanto”. Durante la canción se alternan saltos con piernas juntas y con piernas separadas. Al finalizar, quienes quedan con las piernas separadas deben correr simulando ir al baño porque 'se hicieron pis'. Luego regresan al círculo y se repite la dinámica.",
+  objetivo:
+    "Fomentar la coordinación motriz, la velocidad de reacción y el juego simbólico mediante movimientos simples y un cierre lúdico.",
+  materiales: "No requiere materiales.",
+  variantes: "",
+  tags: ["grupal"],
+},
+
+{
+  id: "bang",
+  title: "Bang",
+  description:
+    "El grupo forma un círculo de pie. Una persona dice el nombre de alguien: esa persona debe agacharse rápidamente. Quienes están a su derecha e izquierda deben formar una pistola con la mano y decir “¡Bang!”. Si la persona nombrada no se agacha a tiempo, queda 'muerta' y debe acostarse en el suelo. Si se agacha a tiempo, los dos vecinos deben competir diciendo “Bang”, y quien lo haga primero 'mata' al otro. La persona que dispara primero sigue el juego diciendo un nuevo nombre. A medida que hay más personas en el suelo, aumenta la dificultad para identificar quién está al lado de quién.",
+  objetivo:
+    "Desarrollar rapidez de reacción, atención visual, coordinación social y toma de decisiones bajo presión.",
+  materiales: "No requiere materiales.",
+  variantes: "",
+  tags: ["grupal"],
+},
+
+{
+  id: "kim-jong-un",
+  title: "Kim Jong Un",
+  description:
+    "Todos los participantes forman un círculo. Una persona inicia levantando los brazos con codos estirados y grita “Kim”. Quienes están a sus lados deben juntar las manos, apuntar hacia el centro y decir “Jong”. Luego, la persona del centro junta sus manos, apunta hacia alguien más y grita “Un”, pasando esa persona a ser la nueva que grita “Kim”. Los movimientos deben ser rápidos, rectos y tajantes. A medida que avanza el juego, la velocidad aumenta.",
+  objetivo:
+    "Trabajar la coordinación grupal, la rapidez de reacción, la atención visual y la precisión motriz a través de secuencias veloces.",
+  materiales: "No requiere materiales.",
+  variantes: "",
+  tags: ["grupal"],
+},
+
+{
+  id: "la-metralleta",
+  title: "La metralleta",
+  description:
+    "Los participantes se organizan en círculo. Comienzan cantando “parapaparapapá”. Luego alguien dice: “la metralleta”. Todos cantan nuevamente “parapaparapapá”, y la persona a la derecha debe decir una palabra que rime con “metralleta” (como bicicleta, avioneta, marraqueta, etc.). El juego continúa avanzando por el círculo en ese orden, combinando la melodía con nuevas rimas en cada turno.",
+  objetivo:
+    "Fomentar la creatividad verbal, la agilidad mental y la participación lúdica mediante rimas rápidas intercaladas con melodía.",
+  materiales: "No requiere materiales.",
+  variantes: "",
+  tags: ["grupal"],
+},
+
+{
+  id: "vamos-a-plantar-maiz",
+  title: "Vamos a plantar maíz a la moda de París",
+  description:
+    "Los participantes se colocan de pie en círculo y siguen una canción repetitiva con gestos acumulativos. El guía canta: “Vamos a plantar maíz a la moda de París. A la una…” y el grupo repite. Los gestos son: (1) cavar la tierra con ambas manos, (2) lanzar semillas al suelo con manos abiertas, (3) aplaudir y levantar brazos como si creciera la planta. En cada ronda se repite la secuencia con un gesto nuevo, acumulando todos los anteriores. La velocidad puede aumentar para mayor dificultad.",
+  objetivo:
+    "Trabajar ritmo, coordinación, memoria secuencial y participación grupal mediante gestos acumulativos acompañados de canto.",
+  materiales: "No requiere materiales.",
+  variantes: "",
+  tags: ["grupal"],
+},
+{
+  id: "pelota-ping-pong",
+  title: "Pelota de ping pong",
+  description:
+    "Los participantes se ubican en círculo y cantan una rima mientras coordinan saltos y turnos. La canción es: “Yo soy pelota de ping-pong”, “Y boto, boto, boto por todo el salón”, “Te tocó”, “Y boto, y boto, boto, boto…”. En “Yo soy pelota de ping-pong”, se preparan para rebotar; en “Y boto, boto, boto por todo el salón”, todos saltan tres veces simultáneamente; en “Te tocó”, la persona encargada señala a un compañero; y en “Y boto, y boto, boto, boto…”, quien fue señalado continúa la dinámica repitiendo desde el inicio. El turno cambia rápidamente y puede aumentarse la dificultad acelerando el ritmo.",
+  objetivo:
+    "Desarrollar la coordinación rítmica, la atención grupal y la rapidez de reacción mediante saltos y turnos sincronizados.",
+  materiales: "No requiere materiales.",
+  variantes: "",
+  tags: ["grupal"],
+},
+
+{
+  id: "en-la-china-me-encontre",
+  title: "En la China me encontré",
+  description:
+    "Dinámica de coordinación motriz y memoria corporal siguiendo un formato acumulativo. Los participantes se organizan en círculo o semicírculo con el líder al centro, repitiendo la canción: “En la China me encontré, un animal particular. Que tenía el brazo así, el pie así, la espalda así, y hacía cui cui cui, y hacía cua cua cua.” En cada ronda se agrega una nueva parte del cuerpo que debe moverse, sin dejar de repetir los movimientos anteriores, acumulando cada gesto y manteniendo la secuencia completa.",
+  objetivo:
+    "Desarrollar coordinación motriz, memoria secuencial y expresión corporal bajo una estructura acumulativa.",
+  materiales: "No requiere materiales.",
+  variantes: "",
+  tags: ["grupal"],
+},
+
+{
+  id: "familia-sapo",
+  title: "La Familia Sapo",
+  description:
+    "Dinámica grupal basada en una historia rítmica sobre una familia de sapos. La canción general es: “Estaba la familia sapo”, “Estaba [Miembro] sapo”, “Sucu tucu tucu tucu, sucu tucu tucu tucu sapo.” Los movimientos acompañan el ritmo: en “Estaba la familia sapo”, se realiza un aplauso rítmico o golpe de muslos; en “Estaba [Miembro] sapo”, se imita un gesto característico del miembro nombrado: Papá Sapo (brazos en jarra), Mamá Sapo (mano en el pecho o brazos abiertos), Abuelo Sapo (manos detrás de la espalda), Bebé Sapo (agacharse). En “sucu tucu tucu”, el grupo repite la mímica rítmica del personaje elegido.",
+  objetivo:
+    "Reforzar memoria secuencial, atención, ritmo y expresión corporal mediante gestos sincronizados con la canción.",
+  materiales: "No requiere materiales.",
+  variantes: "",
+  tags: ["grupal"],
+},
+
+{
+  id: "baile-ensalada",
+  title: "Baile de la ensalada",
+  description:
+    "Actividad grupal rítmica y acumulativa donde se construye una 'ensalada' de gestos. La canción es: “Este es el baile de la ensalada que está de moda y a ti te gusta”, seguida de “Atención, atención” (manos en las orejas) y luego “Repetir, repetir” (manos en la cabeza). En la fase acumulativa, un participante nombra un ingrediente y realiza su gesto; el grupo repite. En cada ronda se repite la secuencia anterior y se añade un nuevo gesto. El ritmo base se mantiene con un patrón muslo-muslo-aplauso.",
+  objetivo:
+    "Desarrollar memoria secuencial, coordinación grupal, ritmo y creatividad al inventar gestos nuevos.",
+  materiales: "No requiere materiales.",
+  variantes: "",
+  tags: ["grupal"],
+},
+
+{
+  id: "piojo-juancho",
+  title: "Piojo Juancho",
+  description:
+    "Los participantes se ubican en círculo y siguen la canción “El Piojo Juancho”, realizando mímicas coordinadas: en “¡Qué viene el piojo Juancho!”, se toman la cabeza con expresión de susto; en “¡Qué horror!, ¿qué hacemos?”, levantan los brazos moviéndolos rápidamente; en “Sacamos el matapiojos”, simulan sacar un frasco; en “Sacudimos el matapiojos”, lo agitan; en “Se lo echamos al compañero”, giran hacia la derecha y simulan aplicar el spray; luego “Le frotamos la cabeza”, masajean su cabeza. Al volver “¡Qué viene el piojo Juancho!”, todos saltan en su lugar. La secuencia puede acelerarse o invertirse.",
+  objetivo:
+    "Fomentar coordinación entre gesto y canción, expresión corporal, ritmo y participación activa.",
+  materiales: "No requiere materiales.",
+  variantes: "",
+  tags: ["grupal"],
+},
+
+{
+  id: "me-estafaron-huevo",
+  title: "Me estafaron con un huevo",
+  description:
+    "Los participantes se colocan en semicírculo y cantan una secuencia repetitiva con gestos. La letra es: “Me estafaron con un huevo” (tocan la cabeza o frente), “Y no tenía pollo” (gesto de negación), “El huevo más fresco” (gesto de asombro o señalando algo importante), “Que no tenía pollo”, “Vamos a la huevería” (marchar o señalar), “A reclamar el huevo”, “¡Qué huevo más fresco!”, “Y no tenía pollo…”. Una persona líder dice cada frase primero y el grupo la repite con el gesto correspondiente.",
+  objetivo:
+    "Reforzar coordinación entre palabra y gesto, memoria inmediata y participación rítmica.",
+  materiales: "No requiere materiales.",
+  variantes: "",
+  tags: ["grupal"],
+},
+
+{
+  id: "el-ovillo",
+  title: "El ovillo",
+  description:
+    "Los participantes forman un círculo. El profesor entrega el extremo del ovillo a la primera persona, quien lo sostiene y lanza el ovillo a otro compañero diciendo algo positivo sobre él. Cada persona sostiene su parte del hilo, dice algo positivo sobre el siguiente y le lanza el ovillo. Se forma una red visible que simboliza los vínculos del grupo. Al finalizar, el último participante devuelve el ovillo al inicial, completando la red.",
+  objetivo:
+    "Fomentar cohesión grupal, fortalecer vínculos afectivos, promover comunicación positiva y reforzar autoestima mediante retroalimentación positiva.",
+  materiales: "Un ovillo de lana o hilo.",
+  variantes: "",
+  tags: ["grupal"],
+},
+
+{
+  id: "un-elefante-se-balanceaba",
+  title: "Un elefante se balanceaba",
+  description:
+    "Dinámica grupal basada en una canción acumulativa. La letra dice: “Un elefante se balanceaba sobre la tela de una araña. Como veía que resistía, fue a llamar a otro elefante.” Los participantes realizan un movimiento de balanceo hacia adelante y hacia los lados simulando el peso del elefante. Al final de cada ronda se suma un nuevo participante al balanceo, aumentando la coordinación requerida. La canción se repite agregando un elefante por ronda.",
+  objetivo:
+    "Desarrollar coordinación grupal, ritmo, memoria acumulativa y participación progresiva.",
+  materiales: "No requiere materiales.",
+  variantes: "",
+  tags: ["grupal"],
+},
+
+{
+  id: "juguemos-en-el-bosque",
+  title: "Juguemos en el bosque",
+  description:
+    "Los participantes caminan y cantan: “Juguemos en el bosque mientras que el lobo no está”. Luego preguntan: “¿Lobo, estás?”. El lobo responde lo que está haciendo (“me estoy vistiendo”, “me pongo los zapatos”, etc.). El grupo avanza cantando y repite la pregunta en cada ronda. Cuando el lobo finalmente responde “¡Aquí estoy!”, intenta atrapar a alguien. Quien es atrapado pasa a ser el nuevo lobo.",
+  objetivo:
+    "Trabajar anticipación, atención, velocidad de reacción y coordinación grupal bajo un formato rítmico.",
+  materiales: "No requiere materiales.",
+  variantes: "",
+  tags: ["grupal"],
+},
+
+{
+  id: "pollito-pio",
+  title: "El Pollito Pío",
+  description:
+    "Los participantes se ubican de pie y siguen la canción “El pollito pío”, imitando con gestos cada animal mencionado. Comienza con el pollito (piquitos con las manos o brazos recogidos como alas). A medida que avanza la canción, se agregan animales sucesivamente (gallina, gallo, pavo, paloma, gato, perro, cabra, vaca, toro, tractor, etc.), cada uno con su gesto o sonido. La secuencia es acumulativa: cada vez que aparece un animal, se repite la cadena completa desde el principio, aumentando la exigencia de memoria, ritmo y coordinación.",
+  objetivo:
+    "Fomentar memoria secuencial, coordinación corporal, expresión gestual y ritmo mediante acumulación progresiva.",
+  materiales: "No requiere materiales.",
+  variantes: "",
+  tags: ["grupal"],
+},
+{
+  id: "canasta-frutas",
+  title: "Canasta de frutas",
+  description:
+    "El grupo se posiciona sentado en un círculo, con una persona en el centro. Esta persona elige un tema y declara qué es lo que la canasta pide (por ejemplo, “la canasta pide a todas las personas de edad impar”). Todas las personas que cumplan la condición deben levantarse y cambiar rápidamente de asiento, mientras quien estaba en el centro intenta ocupar uno. El último en quedar de pie pasa al centro y elige la siguiente consigna.",
+  objetivo:
+    "Trabajar la reacción, la atención y el movimiento rápido en un ambiente lúdico de rompehielo.",
+  materiales: "No requiere materiales.",
+  variantes: "",
+  tags: ["grupal"],
+},
+
+{
+  id: "vamos-de-paseo",
+  title: "Vamos de paseo",
+  description:
+    "Dinámica rítmica guiada por un integrante. La canción base dice: “Vamos de paseo, pip pip pip, en un auto feo, pip pip pip, pero no me importa, pip pip pip, porque como torta, pip pip pip, chu-chu gua”. El guía realiza gestos (mano al frente, dedo arriba, etc.) que el grupo debe imitar. Durante el 'chu-chu gua' los participantes se mueven hacia los lados manteniendo la posición. A lo largo del juego se añaden más gestos: lengua afuera, pata de pingüino, ‘poto de vieja’, entre otros, siguiendo siempre la estructura: Atención, Batallón, Mano al frente, Dedo arriba, Codos atrás, etc., terminando con el coro de 'chu-chu gua' repetido dos veces.",
+  objetivo:
+    "Desarrollar coordinación grupal, expresión corporal y seguimiento de instrucciones rítmicas de manera progresiva.",
+  materiales: "No requiere materiales.",
+  variantes: "",
+  tags: ["grupal"],
+},
+
+{
+  id: "veo-veo",
+  title: "Veo veo, ¿qué ves?",
+  description:
+    "El líder piensa en un objeto visible y comienza el diálogo rítmico: Líder: 'Veo, veo'. Grupo: '¿Qué ves?'. Líder: 'Una cosa'. Grupo: '¿Qué cosa es?'. El líder entrega una pista y el grupo observa el entorno diciendo posibles respuestas. Quien adivina pasa a ser el nuevo líder.",
+  objetivo:
+    "Trabajar la observación atenta, la deducción y la concentración mediante un diálogo lúdico.",
+  materiales: "No requiere materiales.",
+  variantes: "",
+  tags: ["grupal"],
+},
+
+{
+  id: "robot-descompuesto",
+  title: "El Robot Descompuesto",
+  description:
+    "Los participantes forman un círculo y el profesor anuncia que todos se convertirán en un robot descompuesto. El profesor menciona fallas que se van acumulando: 'Chispa en el hombro' (golpeteo rítmico en un hombro), 'Cable suelto en la cadera' (movimientos cortados de cadera), 'Antena temblorosa' (mano arriba vibrando), 'Pantalla parpadeando' (ojos abriéndose y cerrándose), 'Pierna trabada' (paso rígido). En cada ronda se acumulan todas las fallas anteriores, terminando con un robot completamente averiado.",
+  objetivo:
+    "Fomentar la expresión corporal, la coordinación, la atención auditiva y la participación activa mediante secuencias acumulativas.",
+  materiales: "No requiere materiales.",
+  variantes: "",
+  tags: ["grupal"],
+},
+
+{
+  id: "soy-una-serpiente",
+  title: "Soy una serpiente",
+  description:
+    "Dos personas comienzan separadas, caminando y cantando: 'Soy una serpiente que anda por el bosque buscando una parte de su coooola, ¿quiere ser usted una parte de mi cola?'. Al terminar la canción, se acercan a alguien y lo invitan a unirse. El elegido pasa por debajo de las piernas del líder y se integra a la cola. El proceso continúa hasta que todos los participantes formen una serpiente completa.",
+  objetivo:
+    "Fomentar la coordinación grupal, el seguimiento, la organización espacial y la participación activa.",
+  materiales: "No requiere materiales.",
+  variantes: "",
+  tags: ["grupal"],
+},
+
+{
+  id: "soy-una-taza",
+  title: "Soy una taza",
+  description:
+    "El grupo sigue una secuencia de gestos que representan objetos de cocina mientras cantan: 'Soy una taza' (mano derecha en la cintura), 'Una tetera' (mano izquierda levantada), 'Una cuchara' (manos arriba formando un círculo), 'Un cucharón' (bajan ambas por delante del cuerpo), 'Un plato plano' (brazos estirados al frente), 'Un plato hondo' (manos unidas simulando panza), 'Soy un cuchillo' (brazos juntos arriba), 'Y un tenedor' (manos separadas, codos flexionados), 'Soy un salero ch-ch-ch' (salto a la derecha moviendo caderas), 'Azucarero ts-ts-ts' (a la izquierda), 'La batidora – wuuu' (giro completo). Finaliza con 'Y se acabó'.",
+  objetivo:
+    "Trabajar memoria secuencial, coordinación corporal y expresión lúdica mediante una rutina acumulativa de gestos.",
+  materiales: "No requiere materiales.",
+  variantes: "",
+  tags: ["grupal"],
+},
+
+{
+  id: "oh-king-kong",
+  title: "Oh King Kong",
+  description:
+    "Una persona se mueve como un gorila mientras el grupo canta: 'Oh King Kong, oh qué grande eres tú (x2). Yo soy grande, tú también, ven conmigo, yo te té, yo te té, yo te té'. Durante el verso 'ven conmigo', el King Kong se acerca a alguien e invita a esa persona a imitarlo. Ambos continúan caminando y expandiendo el grupo.",
+  objetivo:
+    "Promover la creatividad corporal, el juego expresivo y la interacción grupal mediante imitación y desplazamiento.",
+  materiales: "No requiere materiales.",
+  variantes: "",
+  tags: ["grupal"],
+},
+
+{
+  id: "chipi-chipi",
+  title: "El chipi chipi",
+  description:
+    "Un integrante camina alrededor del grupo mientras se canta: 'Cuando fui a Nueva York a ver a la Mari, la Mari me enseñó a bailar el chipi chipi…'. Cuando llega la parte 'Baila el chipi chipi wuuu (x3) pero báilalo bien', el líder invita a alguien y ambos realizan el chipi chipi: puños en círculos y patita levantándose hacia los lados en cada 'wuu'. La dinámica continúa con nuevos participantes.",
+  objetivo:
+    "Fomentar coordinación rítmica, expresión corporal y participación mediante invitaciones individuales y baile guiado.",
+  materiales: "No requiere materiales.",
+  variantes: "",
+  tags: ["grupal"],
+},
+
+{
+  id: "baile-zuku-zuku",
+  title: "El baile del zuku zuku",
+  description:
+    "Todos forman una ronda. Un integrante camina al ritmo de: 'Vamos todos, vamos a bailar, el baile más popular (x2). El baile del zuku zuku, zuku zuku te voy a dar (x2)'. La persona selecciona a otro para bailar el zuku zuku (darse vueltas mutuamente). El nuevo integrante sale a buscar a alguien más y la secuencia continúa.",
+  objetivo:
+    "Desarrollar ritmo, socialización, desplazamiento y disfrute grupal mediante invitaciones sucesivas al baile.",
+  materiales: "No requiere materiales.",
+  variantes: "",
+  tags: ["grupal"],
+},
+
+{
+  id: "oh-king-kong",
+  title: "Oh King Kong",
+  description:
+    "Una persona se mueve como un gorila mientras el grupo canta: 'Oh King Kong, oh qué grande eres tú (x2). Yo soy grande, tú también, ven conmigo, yo te té, yo te té, yo te té'. Durante el verso 'ven conmigo', el King Kong invita a un participante a unirse imitando al gorila.",
+  objetivo:
+    "Promover expresión corporal, creatividad y cohesión grupal mediante una dinámica de imitación progresiva.",
+  materiales: "No requiere materiales.",
+  variantes: "",
+  tags: ["grupal"],
+},
 ];
 
 const JUEGOS_DATA = [
