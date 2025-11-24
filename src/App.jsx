@@ -1949,9 +1949,9 @@ function LandingPage({ onEnter }) {
       <p className="text-lg md:text-xl mb-8 text-slate-600">Grupo: El mejor 😎</p>
 
       {/* Imagen con marco */}
-      <div className="w-full max-w-3xl border-4 border-white rounded-2xl shadow-xl bg-white overflow-hidden mb-10">
+      <div className="w-full max-w-xl border-4 border-white rounded-2xl shadow-xl bg-white overflow-hidden mb-10">
         <img
-          src="fondo.jpg" 
+          src="fondo2.jpg" 
           alt="Equipo"
           className="w-full h-auto object-cover"
         />
