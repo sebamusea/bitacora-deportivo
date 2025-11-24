@@ -1399,30 +1399,18 @@ function Nosotros() {
 
 function LandingPage({ onEnter }) {
   return (
-    <div
-      className="relative w-full h-screen bg-cover bg-center flex items-center justify-center"
-      style={{
-        backgroundImage: "url('/fondo2.jpg')",
-      }}
-    >
-      {/* Overlay oscuro leve para contraste */}
-      <div className="absolute inset-0 bg-black/40"></div>
-
-      {/* CONTENIDO */}
-      <div className="relative z-10 text-center flex flex-col gap-4" style={{ marginTop: "-120px" }}>
-        <h1 className="text-6xl font-bold text-white drop-shadow-lg">
-          Liderazgo, Juegos y Recreación I
-        </h1>
-        <p className="text-3xl text-white drop-shadow-lg">2025-2</p>
-        <p className="text-2xl text-white drop-shadow-lg">Grupo: El mejor 😎</p>
-
-        <a
-          href="/bitacora"
-          className="mt-4 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white text-xl rounded-xl shadow-lg"
-        >
-          Entrar a la Bitácora
-        </a>
-      </div>
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-sky-200 via-sky-50 to-indigo-200 text-slate-800 px-4">
+      <h1 className="text-4xl md:text-6xl font-extrabold mb-4 text-blue-700 drop-shadow-sm">
+        Liderazgo, Juegos y Recreación I
+      </h1>
+      <p className="text-xl md:text-2xl mb-2 text-slate-700">2025-2</p>
+      <p className="text-lg md:text-xl mb-8 text-slate-600">Grupo: El mejor 😎</p>
+      <Button
+        onClick={onEnter}
+        className="bg-blue-600 hover:bg-blue-700 text-white text-lg px-8 py-4 rounded-2xl shadow-lg transition-transform hover:scale-105"
+      >
+        Entrar a la Bitácora
+      </Button>
     </div>
   );
 }
